@@ -2,3 +2,13 @@
 - Gui -> WindForm
 - c#-ban lesz megírva
 - Szűrők, a termékek egyesével ezek szerint kilistázva vagy összeszámolva (pl.: mennyi rpg játék van)
+
+- Adatbázis implementációja: DBeaver alkalmazással
+- Fel tudunk venni termékeket ( játéknév, platformok, ár, megjelenés dátuma, beérkezés dátuma, cikkszám, darabszám, Steam-kulcs (ha van) ) --> ezek már kvázi adatbázis-mezők
+
+Elvárások: leltárazó program
+	-tudunk módosítani a státuszukon (készleten, eladva, elfogadásra vár)
+	-lapozás funkció (görgetéssel előre-hátra lapoz)
+	-szűrés platform, ár alapján
+	-keresés cikkszám, név alapján
+	-szükség lesz tervezett takarításokra is, az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tárolni, csak számlákon

@@ -1,6 +1,6 @@
 - Kell egy adatbázis a háttér adatoknak
 - Gui -> WinForm
-- c#-ban lesz megírva
+- Java-ban fogjuk megírni
 - Szűrők, a termékek egyesével ezek szerint kilistázva vagy összeszámolva (pl.: mennyi rpg játék van)
 
 - Adatbázis implementációja: DBeaver alkalmazással

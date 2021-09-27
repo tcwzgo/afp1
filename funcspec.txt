@@ -1,5 +1,5 @@
 - Kell egy adatbázis a háttér adatoknak
-- Gui -> WindForm
+- Gui -> WinForm
 - c#-ban lesz megírva
 - Szűrők, a termékek egyesével ezek szerint kilistázva vagy összeszámolva (pl.: mennyi rpg játék van)
 

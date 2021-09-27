@@ -11,4 +11,4 @@ Elvárások: leltárazó program
 	-lapozás funkció (görgetéssel előre-hátra lapoz)
 	-szűrés platform, ár alapján
 	-keresés cikkszám, név alapján
-	-szükség lesz tervezett takarításokra is, az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tárolni, csak számlákon
+	-szükség lesz tervezett takarításokra is, az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tárolni,csak számlákon

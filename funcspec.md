@@ -17,3 +17,67 @@ Egy leltárazó program ahol, tudunk módosítani a státuszukon (készleten, el
 lapozás funkció (görgetéssel előre-hátra lapoz) szűrés platform, 
 ár alapján keresés cikkszám, név alapján szükség lesz tervezett takarításokra is, 
 az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tárolni,csak számlákon
+
+**A rendszer céljai és nem céljai**
+
+
+
+
+
+
+
+**Jelenlegi üzleti folyamatok modellje**
+
+
+
+
+
+
+
+
+**Igényelt üzleti folyamatok modellje**
+
+
+
+
+
+
+
+
+**Követelmény lista**
+
+
+
+
+
+
+
+
+**Használati esetek (use-case)**
+
+
+
+
+
+
+
+**Képernyő tervek**
+
+
+
+
+
+
+
+
+**Képernyő tervek**
+
+
+
+
+
+
+
+
+
+**Fogalomszótár**

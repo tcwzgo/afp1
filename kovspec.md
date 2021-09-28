@@ -1,10 +1,16 @@
-Jelenlegi helyzet: Videojátékokkal foglalkozó boltunkban megnőtt a beérkező megrendelések, megkeresések száma,
+**Jelenlegi helyzet**
+ 
+Videojátékokkal foglalkozó boltunkban megnőtt a beérkező megrendelések, megkeresések száma,
 ami a papíron történő leltárazást teszi egyre komplikáltabbá, időigényesebbé.
 
-Elképzelt, ideális helyzet: Szükségessé vált egy offline szoftveres informatikai rendszer kiépítése, amely lehetővé teszi, hogy
+**Elképzelt, ideális helyzet** 
+
+Szükségessé vált egy offline szoftveres informatikai rendszer kiépítése, amely lehetővé teszi, hogy
 a megérkező termékekhez megfelelő információkat rögzíteni tudjunk, így a későbbiekben lépést tartsunk a játékipar nemcsak régebbi, de legújabb megjelenéseivel is.
 
-Elvárások: leltárazó program
+**Elvárások**
+ 
+leltárazó program
 	-tudunk módosítani a státuszukon (készleten, eladva, elfogadásra vár)
 	-lapozás funkció (görgetéssel előre-hátra lapoz)
 	-szűrés platform, ár alapján

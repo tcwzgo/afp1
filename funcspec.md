@@ -1,12 +1,19 @@
-- Kell egy adatbázis a háttér adatoknak
-- Gui -> WinForm
-- Java-ban fogjuk megírni
-- Szűrők, a termékek egyesével ezek szerint kilistázva vagy összeszámolva (pl.: mennyi rpg játék van)
+**Jelenlegi helyzet**
 
-- Adatbázis implementációja: DBeaver alkalmazással
+Videojátékokkal foglalkozó boltunkban megnőtt a beérkező megrendelések, megkeresések száma,
+ami a papíron történő leltárazást teszi egyre komplikáltabbá, időigényesebbé.
+
+**Vágyálom rendszer**
+
+- Kell egy adatbázis a háttér adatoknak
+- Grafikus felület -> WinForm App
+- Szűrők, a termékek egyesével ezek szerint kilistázva vagy összeszámolva (pl.: mennyi rpg játék van)
+- Adatbázis implementációja: Fájlban (xls, txt, stb...)
 - Fel tudunk venni termékeket ( játéknév, platformok, ár, megjelenés dátuma, beérkezés dátuma, cikkszám, darabszám, Steam-kulcs (ha van) ) --> ezek már kvázi adatbázis-mezők
 
-Elvárások: leltárazó program
+**Elvárások**
+
+leltárazó program
 	-tudunk módosítani a státuszukon (készleten, eladva, elfogadásra vár)
 	-lapozás funkció (görgetéssel előre-hátra lapoz)
 	-szűrés platform, ár alapján

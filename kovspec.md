@@ -7,10 +7,23 @@ a piacon úttörővé, sőt egyenesen követendővé nőtték ki magukat.
 A cégvezetés számára a jelenlegi helyzet modernnek, mitöbb környezetkímélőnek 
 egyáltalán nem mondható, ugyanis még mindig papírformán	vezetjük a termékeink forgalmát.
 
-### Elképzelt, ideális helyzet
+### Vágyálomrendszer
 
 Szükségessé vált egy offline szoftveres informatikai rendszer kiépítése, amely lehetővé teszi, hogy
-a megérkező termékekhez megfelelő információkat rögzíteni tudjunk, így a későbbiekben lépést tartsunk a játékipar nemcsak régebbi, de legújabb megjelenéseivel is.
+a megérkező termékekhez megfelelő információkat rögzíteni tudjunk, így a későbbiekben lépést 
+tudjunk tartani a játékipar nemcsak régebbi, de legújabb megjelenéseivel is.
+Nem titkolt célunk, hogy a többi cég által kitaposott úton, immáron kódban implementált,
+szoftveres megoldásokkal is nyitni tudjunk egy szélesebb piac felé. 
+	- Maga a szoftver egy leltárprogram videojátékokra kidolgozott implementációja.
+	- Szükséges, hogy az applikáció akkor is funkcionáljon, amikor a raktár egyébként nem üzemel (bárhonnan el tudjuk indítani).
+	- Legyen belépési feltétel, kötelező megadni egy felhasználónevet.
+	- Tartalmaz egy bejelentkező felületet, amely természetesen csak akkor enged betekintést, amikor validáltuk a bejelentkezést.
+	- Ismeretlen NE tudjon hozzáférni!
+	- Lehessen akkor is hozzáférni, ha az adatbázis/adatbázis-szerver nem működik, "sima" tagolt fájlból is legyen képes adatot megjeleníteni.
+	- Tudjuk nyomon követni a rendszeridőt (naplózás szempontjából fontos)
+	- Jó lenne, ha adatbázis-kapcsolatot használhatnánk a későbbiekben a játékok tárolására.
+	- Egyelőre szimpla fájlos megoldás is megteszi.
+	- Jó lenne, ha meg tudnánk nézni esetleg a belépések időpontjait naplózás szempontjából.
 
 ### Elvárások
  

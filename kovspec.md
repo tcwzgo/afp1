@@ -1,4 +1,4 @@
-**Jelenlegi helyzet**
+### Jelenlegi helyzet
  
 Videojátékokkal foglalkozó boltunkban megnőtt a beérkező megrendelések, megkeresések száma,
 ami a papíron történő leltárazást teszi egyre komplikáltabbá, időigényesebbé. A konkurens cégek is
@@ -7,21 +7,28 @@ a piacon úttörővé, sőt egyenesen követendővé nőtték ki magukat.
 A cégvezetés számára a jelenlegi helyzet modernnek, mitöbb környezetkímélőnek 
 egyáltalán nem mondható, ugyanis még mindig papírformán	vezetjük a termékeink forgalmát.
 
-**Elképzelt, ideális helyzet** 
+### Elképzelt, ideális helyzet
 
 Szükségessé vált egy offline szoftveres informatikai rendszer kiépítése, amely lehetővé teszi, hogy
 a megérkező termékekhez megfelelő információkat rögzíteni tudjunk, így a későbbiekben lépést tartsunk a játékipar nemcsak régebbi, de legújabb megjelenéseivel is.
 
-**Elvárások**
+### Elvárások
  
 Egy leltárazó program ahol, tudunk módosítani a státuszukon (készleten, eladva, elfogadásra vár), 
 lapozás funkció (görgetéssel előre-hátra lapoz) szűrés platform, 
 ár alapján keresés cikkszám, név alapján szükség lesz tervezett takarításokra is, 
 az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tárolni,csak számlákon
 
-**Követelménylista** 
+## Követelménylista
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+|    Modul    	| ID |       Név        		|                                                        Kifejtés                                                        		|
+|-------------	|----|--------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Authority 	| K1 | Bejelentkező felület		| Van egy minimális bejelentkeztető felület, amin felhasználónév + jelszó kombinációval be tudunk lépni (egyfelhasználós)		|
+| Interface   	| K2 | Felhasználói felület   	| Ne legyen túlgondolva, pár gomb felvételre, törlésre, módosításra.												   			|
+| Datastore 	| K3 | Adattárolási mód 		| Férjen el minimális tárhelyen (kis cég, kis tárhely).																			|
+| Datastore 	| K4 | Tervezett karbantartás	| Előző pontból következik, időszakosan pucoljuk is a tárhelyet (fájlból a felesleges rekordok eltávolítása)    				|
+| Datastore 	| K5 | Adatbázis        		| Itt tároljuk a játék nevét, platformját , árát, megjelenés dátumát, beérkezés dátumát, cikkszámát, darabszámát, Steam-kulcsát |
+| Interface   	| L1 | Keresés          		| Lehetőleg tudjon a felhasználó keresni termékekre minimum név alapján. 														|
+| Interface   	| L2 | Szűrés      				| Lehetőleg tudjon a felhasználó szűrni termékekre ár, platformok alapján.                                                      |
+| Interface 	| L3 | Rendezés         		| A felhasználó tudjon rendezni ár, név, cikkszám szerint.                              										|
+| Feature   	| F1 | Rendszeridő      		| Mutasson rendszeridőt a képernyő valamely kevésbé feltűnő részén.								 								|

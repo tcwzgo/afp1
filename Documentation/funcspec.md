@@ -8,7 +8,7 @@ ami a papíron történő leltárazást teszi egyre komplikáltabbá, időigény
 - Kell egy adatbázis a háttér adatoknak
 - Grafikus felület -> WinForm App
 - Szűrők, a termékek egyesével ezek szerint kilistázva vagy összeszámolva (pl.: mennyi rpg játék van)
-- Adatbázis implementációja: Fájlban (xls, txt, stb...)
+- Adatbázis implementációja: Fájlban (xls, txt, csv, stb...)
 - Fel tudunk venni termékeket ( játéknév, platformok, ár, megjelenés dátuma, beérkezés dátuma, cikkszám, darabszám, Steam-kulcs (ha van) ) --> ezek már kvázi adatbázis-mezők
 
 **Elvárások**

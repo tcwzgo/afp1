@@ -1,4 +1,4 @@
-#Követelmény specifikáció
+# Követelmény specifikáció
 
 ### Áttekintés
 

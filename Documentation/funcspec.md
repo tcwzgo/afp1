@@ -46,10 +46,10 @@ Rendszerünk célja továbbá, hogy legyen letisztult, gyors és hatékony a fen
 
 **Követelmény lista**
 
-
-
-
-
+A követelményspecifikációban taglaltak szerint fogunk eljárni a tervezés során.
+Szigorúan betartjuk a felénk benyújtott követelményeket amennyiben a szerződés megköttetik.
+Ezen elvektől bármilyen formájú eltérés esetén az Ügyfélnek jogában áll panasszal fordulni hozzánk.
+Ugyanakkor fontos azt is megemlítenünk, hogy a fejlesztő csapatnak is jogában áll ezen elvekre hivatkozva fellebbezni a vevő félnél.
 
 
 

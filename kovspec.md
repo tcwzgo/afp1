@@ -1,3 +1,9 @@
+### Áttekintés
+
+
+
+
+
 ### Jelenlegi helyzet
  
 Videojátékokkal foglalkozó boltunkban megnőtt a beérkező megrendelések, megkeresések száma,
@@ -45,3 +51,5 @@ az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tároln
 | Interface   	| L2 | Szűrés      				| Lehetőleg tudjon a felhasználó szűrni termékekre ár, platformok alapján.                                                      |
 | Interface 	| L3 | Rendezés         		| A felhasználó tudjon rendezni ár, név, cikkszám szerint.                              										|
 | Feature   	| F1 | Rendszeridő      		| Mutasson rendszeridőt a képernyő valamely kevésbé feltűnő részén.								 								|
+
+### Rendszerre vonatkozó törvények

@@ -63,22 +63,13 @@ Ezek után megtekintheti az így elkészült adatoknak a listáját.
 
 **Képernyő tervek**
 
-
-
-
-
-
-
-
-**Képernyő tervek**
-
-
-
-
-
-
-
-
+Az első kapu a szoftverünkben egy bejelentkezési felület, amely megakadályoz bármilyen illetéktelen bejelentkezést
+Szerkezetileg egy minimális méretű ablakról van szó, amely két kitöldendő mezőt tartalmaz és egy bejelentkezés gombot
+Ez az utóbbi juttat el minket a főprogramhoz, amely alapértelmezetten megjeleníti az összes tárolt terméket.
+Ezt két további régióra oszthatjuk fel vízszintesen -> felül vannak a szűrők, alul pedig maga a listázó/megjelenítő felület.
+A szűrőket legördülő menükkel valósítjuk meg (persze ahol ez értelmezhető).
+A szűrök kitöltése után a "Keresés" gombra kattintva megjelennek előttünk a megfelelő tételek.
+Funkciója még egy hozzáadás, amely egy újabb ablakot hív elő, ahol a megfelelő paraméterekkel fel tudunk venni egy újabb terméket.
 
 **Fogalomszótár**
 

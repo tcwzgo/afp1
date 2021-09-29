@@ -20,10 +20,11 @@ az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tároln
 
 **A rendszer céljai és nem céljai**
 
-Projektünk egy leltározó szoftvert valósít meg (hasonló mint például egy SAP). Ahol tudunk szűrni több féle feltétel szerint, 
+Projektünk egy leltározó szoftvert valósít meg (hasonló mint például egy SAP). 
+Ebben tudunk szűrni többféle feltétel szerint, 
 mint pl.: idő, zsáner, ár, platform, megjelenés dátuma, cikkszám. 
 A program *nem* egy webshop-ként funkcionál tehát nem valósítunk meg benne pl.: kosár funkciót/vásárlás funkciót.
-Rendszerünk célja még, hogy legyen letisztult, gyors és hatékony a fentebb felsorolt dolgokban!
+Rendszerünk célja továbbá, hogy legyen letisztult, gyors és hatékony a fentebb definiált rutinokban!
 
 **Jelenlegi üzleti folyamatok modellje**
 

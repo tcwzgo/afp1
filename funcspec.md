@@ -53,8 +53,8 @@ Rendszerünk célja még, hogy legyen letisztult, gyors és hatékony a fentebb 
 
 
 **Használati esetek (use-case)**
-
-
+A felhasználó jogosult arra, hogy adatokat szűrjön az összes beépített funkció használatával.
+Ezek után megtekintheti az így elkészült adatoknak a listáját.
 
 
 

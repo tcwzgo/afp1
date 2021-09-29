@@ -1,3 +1,5 @@
+#Követelmény specifikáció
+
 ### Áttekintés
 
 
@@ -52,4 +54,133 @@ az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tároln
 | Interface 	| L3 | Rendezés         		| A felhasználó tudjon rendezni ár, név, cikkszám szerint.                              										|
 | Feature   	| F1 | Rendszeridő      		| Mutasson rendszeridőt a képernyő valamely kevésbé feltűnő részén.								 								|
 
-### Rendszerre vonatkozó törvények
+## Rendszerre vonatkozó törvények
+
+### Általános Információk
+
+
+
+
+
+
+
+
+### Szellemi tulajdon
+
+
+
+
+
+
+
+
+
+
+
+
+### Használat
+
+
+
+
+
+
+
+
+
+### Felelősségi szabályok
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Technikai követelmények
+
+
+
+
+
+
+
+
+
+
+
+
+### Garancia és kártérítés
+
+
+
+
+
+
+
+
+
+
+
+
+### Egyéb rendelkezések
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Kapcsolat
+
+
+
+
+### Jelenlegi üzleti folyamatok
+
+
+
+
+
+### Igényelt üzleti folyamatok
+
+
+
+
+### Követelménylista
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Fogalomtár
+-
+-
+-
+-
+-
+-
+-
+

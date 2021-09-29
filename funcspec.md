@@ -85,4 +85,15 @@ Ezek után megtekintheti az így elkészült adatoknak a listáját.
 
 
 
+**Áttekintés**
+
+A funkcionális specifikáció	folyamán konstatáljuk, hogy konkrétan milyen célokra, 
+milyen felhasználási területre készül a termékünk, az általunk fejlesztett szoftver.
+A követelményspecifikációban lefektetett kritériumoknak megfeleltetjük a szoftver
+jövőbeli funkcióit, amelyeket természetesen a megrendelőnk tudására is adunk.
+Ezek alapján a megrendelő képes lesz saját legjobb belátása szerint eldönteni,
+szerződik-e kis csapatunkkal a termék kidolgozásának, tesztelési fázisának, 
+végül annak értékesítésének, átadásának idejére, avagy nem tart igényt rá.
+
+
 

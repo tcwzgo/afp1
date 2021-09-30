@@ -53,6 +53,9 @@ namespace afp1_erp_main
             this.gb_Output = new System.Windows.Forms.GroupBox();
             this.flowLayoutPanel_List = new System.Windows.Forms.FlowLayoutPanel();
             this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.btn_Sort = new System.Windows.Forms.Button();
+            this.cb_Sort = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.gb_Output.SuspendLayout();
             this.flowLayoutPanel_List.SuspendLayout();
@@ -284,9 +287,9 @@ namespace afp1_erp_main
             // gb_Output
             // 
             this.gb_Output.Controls.Add(this.flowLayoutPanel_List);
-            this.gb_Output.Location = new System.Drawing.Point(472, 12);
+            this.gb_Output.Location = new System.Drawing.Point(472, 68);
             this.gb_Output.Name = "gb_Output";
-            this.gb_Output.Size = new System.Drawing.Size(787, 709);
+            this.gb_Output.Size = new System.Drawing.Size(787, 653);
             this.gb_Output.TabIndex = 1;
             this.gb_Output.TabStop = false;
             this.gb_Output.Text = "Output";
@@ -310,11 +313,48 @@ namespace afp1_erp_main
             this.dataGridView.Size = new System.Drawing.Size(919, 779);
             this.dataGridView.TabIndex = 0;
             // 
+            // btn_Sort
+            // 
+            this.btn_Sort.Location = new System.Drawing.Point(773, 39);
+            this.btn_Sort.Name = "btn_Sort";
+            this.btn_Sort.Size = new System.Drawing.Size(78, 26);
+            this.btn_Sort.TabIndex = 2;
+            this.btn_Sort.Text = "Sort";
+            this.btn_Sort.UseVisualStyleBackColor = true;
+            // 
+            // cb_Sort
+            // 
+            this.cb_Sort.FormattingEnabled = true;
+            this.cb_Sort.Items.AddRange(new object[] {
+            "Price ascending",
+            "Price descending",
+            "Name ascending",
+            "Name descending",
+            "Serial number ascending",
+            "Serial number descending"});
+            this.cb_Sort.Location = new System.Drawing.Point(482, 39);
+            this.cb_Sort.Name = "cb_Sort";
+            this.cb_Sort.Size = new System.Drawing.Size(270, 23);
+            this.cb_Sort.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(482, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 15);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Sort by";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1271, 733);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cb_Sort);
+            this.Controls.Add(this.btn_Sort);
             this.Controls.Add(this.gb_Output);
             this.Controls.Add(this.groupBox1);
             this.Name = "MainForm";
@@ -326,6 +366,7 @@ namespace afp1_erp_main
             this.flowLayoutPanel_List.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -355,5 +396,8 @@ namespace afp1_erp_main
         private System.Windows.Forms.GroupBox gb_Output;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel_List;
         private System.Windows.Forms.DataGridView dataGridView;
+        private System.Windows.Forms.Button btn_Sort;
+        private System.Windows.Forms.ComboBox cb_Sort;
+        private System.Windows.Forms.Label label1;
     }
 }

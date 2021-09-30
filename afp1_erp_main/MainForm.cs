@@ -33,6 +33,9 @@ namespace afp1_erp_main
             if (deleteRecordYesNo == DialogResult.Yes)
             {
                 // Products.Remove(....) adott terméket törölni a fentiek alapján
+                // dataGridView.SelectedRows
+                // törlés után refresh
+                // dataGridView.Refresh
             }
             else if (deleteRecordYesNo == DialogResult.No)
             {
@@ -42,7 +45,7 @@ namespace afp1_erp_main
 
         private void btn_Search_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

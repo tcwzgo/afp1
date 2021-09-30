@@ -16,5 +16,10 @@ namespace afp1_erp_main
         {
             InitializeComponent();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

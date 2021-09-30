@@ -29,133 +29,329 @@ namespace afp1_erp_main
         /// </summary>
         private void InitializeComponent()
         {
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_search = new System.Windows.Forms.Button();
-            this.cb_incomeDate = new System.Windows.Forms.ComboBox();
-            this.cb_releaseDate = new System.Windows.Forms.ComboBox();
-            this.cb_platform = new System.Windows.Forms.ComboBox();
-            this.cb_genre = new System.Windows.Forms.ComboBox();
-            this.tb_serialNum = new System.Windows.Forms.TextBox();
-            this.tb_name = new System.Windows.Forms.TextBox();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_UpdateItem = new System.Windows.Forms.Button();
+            this.btn_RemoveItem = new System.Windows.Forms.Button();
+            this.btn_AddItem = new System.Windows.Forms.Button();
+            this.btn_Search = new System.Windows.Forms.Button();
+            this.cb_Genre = new System.Windows.Forms.ComboBox();
+            this.cb_Platform = new System.Windows.Forms.ComboBox();
+            this.lb_Genre = new System.Windows.Forms.Label();
+            this.cb_Price = new System.Windows.Forms.ComboBox();
+            this.lb_Platform = new System.Windows.Forms.Label();
+            this.dateTimePicker_ArrivelDate = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker_ReleaseDate = new System.Windows.Forms.DateTimePicker();
+            this.lb_Price = new System.Windows.Forms.Label();
+            this.lb_ArrivalDate = new System.Windows.Forms.Label();
+            this.lb_ReleaseDate = new System.Windows.Forms.Label();
+            this.lb_SteamKey = new System.Windows.Forms.Label();
+            this.lb_Serial = new System.Windows.Forms.Label();
+            this.lb_Name = new System.Windows.Forms.Label();
+            this.tb_SteamKey = new System.Windows.Forms.TextBox();
+            this.tb_SerialNum = new System.Windows.Forms.TextBox();
+            this.tb_Name = new System.Windows.Forms.TextBox();
+            this.gb_Output = new System.Windows.Forms.GroupBox();
+            this.flowLayoutPanel_List = new System.Windows.Forms.FlowLayoutPanel();
+            this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.groupBox1.SuspendLayout();
+            this.gb_Output.SuspendLayout();
+            this.flowLayoutPanel_List.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // vScrollBar1
+            // groupBox1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(1191, 13);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(16, 446);
-            this.vScrollBar1.TabIndex = 0;
+            this.groupBox1.Controls.Add(this.btn_UpdateItem);
+            this.groupBox1.Controls.Add(this.btn_RemoveItem);
+            this.groupBox1.Controls.Add(this.btn_AddItem);
+            this.groupBox1.Controls.Add(this.btn_Search);
+            this.groupBox1.Controls.Add(this.cb_Genre);
+            this.groupBox1.Controls.Add(this.cb_Platform);
+            this.groupBox1.Controls.Add(this.lb_Genre);
+            this.groupBox1.Controls.Add(this.cb_Price);
+            this.groupBox1.Controls.Add(this.lb_Platform);
+            this.groupBox1.Controls.Add(this.dateTimePicker_ArrivelDate);
+            this.groupBox1.Controls.Add(this.dateTimePicker_ReleaseDate);
+            this.groupBox1.Controls.Add(this.lb_Price);
+            this.groupBox1.Controls.Add(this.lb_ArrivalDate);
+            this.groupBox1.Controls.Add(this.lb_ReleaseDate);
+            this.groupBox1.Controls.Add(this.lb_SteamKey);
+            this.groupBox1.Controls.Add(this.lb_Serial);
+            this.groupBox1.Controls.Add(this.lb_Name);
+            this.groupBox1.Controls.Add(this.tb_SteamKey);
+            this.groupBox1.Controls.Add(this.tb_SerialNum);
+            this.groupBox1.Controls.Add(this.tb_Name);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(453, 709);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Input";
             // 
-            // panel1
+            // btn_UpdateItem
             // 
-            this.panel1.Controls.Add(this.vScrollBar1);
-            this.panel1.Location = new System.Drawing.Point(12, 191);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1218, 471);
-            this.panel1.TabIndex = 1;
+            this.btn_UpdateItem.Location = new System.Drawing.Point(308, 635);
+            this.btn_UpdateItem.Name = "btn_UpdateItem";
+            this.btn_UpdateItem.Size = new System.Drawing.Size(115, 68);
+            this.btn_UpdateItem.TabIndex = 5;
+            this.btn_UpdateItem.Text = "Update Item";
+            this.btn_UpdateItem.UseVisualStyleBackColor = true;
             // 
-            // panel2
+            // btn_RemoveItem
             // 
-            this.panel2.Controls.Add(this.btn_search);
-            this.panel2.Controls.Add(this.cb_incomeDate);
-            this.panel2.Controls.Add(this.cb_releaseDate);
-            this.panel2.Controls.Add(this.cb_platform);
-            this.panel2.Controls.Add(this.cb_genre);
-            this.panel2.Controls.Add(this.tb_serialNum);
-            this.panel2.Controls.Add(this.tb_name);
-            this.panel2.Location = new System.Drawing.Point(12, 12);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1218, 173);
-            this.panel2.TabIndex = 1;
+            this.btn_RemoveItem.Location = new System.Drawing.Point(158, 635);
+            this.btn_RemoveItem.Name = "btn_RemoveItem";
+            this.btn_RemoveItem.Size = new System.Drawing.Size(115, 68);
+            this.btn_RemoveItem.TabIndex = 5;
+            this.btn_RemoveItem.Text = "Remove Item";
+            this.btn_RemoveItem.UseVisualStyleBackColor = true;
             // 
-            // btn_search
+            // btn_AddItem
             // 
-            this.btn_search.Location = new System.Drawing.Point(1052, 120);
-            this.btn_search.Name = "btn_search";
-            this.btn_search.Size = new System.Drawing.Size(155, 50);
-            this.btn_search.TabIndex = 2;
-            this.btn_search.Text = "Search";
-            this.btn_search.UseVisualStyleBackColor = true;
+            this.btn_AddItem.Location = new System.Drawing.Point(8, 635);
+            this.btn_AddItem.Name = "btn_AddItem";
+            this.btn_AddItem.Size = new System.Drawing.Size(115, 68);
+            this.btn_AddItem.TabIndex = 5;
+            this.btn_AddItem.Text = "Add Item";
+            this.btn_AddItem.UseVisualStyleBackColor = true;
             // 
-            // cb_incomeDate
+            // btn_Search
             // 
-            this.cb_incomeDate.FormattingEnabled = true;
-            this.cb_incomeDate.Location = new System.Drawing.Point(921, 133);
-            this.cb_incomeDate.Name = "cb_incomeDate";
-            this.cb_incomeDate.Size = new System.Drawing.Size(112, 23);
-            this.cb_incomeDate.TabIndex = 1;
+            this.btn_Search.Location = new System.Drawing.Point(8, 585);
+            this.btn_Search.Name = "btn_Search";
+            this.btn_Search.Size = new System.Drawing.Size(415, 44);
+            this.btn_Search.TabIndex = 4;
+            this.btn_Search.Text = "Search";
+            this.btn_Search.UseVisualStyleBackColor = true;
             // 
-            // cb_releaseDate
+            // cb_Genre
             // 
-            this.cb_releaseDate.FormattingEnabled = true;
-            this.cb_releaseDate.Location = new System.Drawing.Point(768, 133);
-            this.cb_releaseDate.Name = "cb_releaseDate";
-            this.cb_releaseDate.Size = new System.Drawing.Size(130, 23);
-            this.cb_releaseDate.TabIndex = 1;
+            this.cb_Genre.FormattingEnabled = true;
+            this.cb_Genre.Items.AddRange(new object[] {
+            "RPG",
+            "FPS",
+            "Action-Adventure",
+            "Platformer",
+            "Horror",
+            "MOBA ",
+            "RTS",
+            "Party games",
+            "Sport/Simulation"});
+            this.cb_Genre.Location = new System.Drawing.Point(8, 406);
+            this.cb_Genre.Name = "cb_Genre";
+            this.cb_Genre.Size = new System.Drawing.Size(417, 23);
+            this.cb_Genre.TabIndex = 3;
             // 
-            // cb_platform
+            // cb_Platform
             // 
-            this.cb_platform.FormattingEnabled = true;
-            this.cb_platform.Location = new System.Drawing.Point(617, 133);
-            this.cb_platform.Name = "cb_platform";
-            this.cb_platform.Size = new System.Drawing.Size(119, 23);
-            this.cb_platform.TabIndex = 1;
+            this.cb_Platform.FormattingEnabled = true;
+            this.cb_Platform.Items.AddRange(new object[] {
+            "PC",
+            "PS4",
+            "XboX Series X/S",
+            "Stadia",
+            "Nintendo Switch"});
+            this.cb_Platform.Location = new System.Drawing.Point(8, 336);
+            this.cb_Platform.Name = "cb_Platform";
+            this.cb_Platform.Size = new System.Drawing.Size(417, 23);
+            this.cb_Platform.TabIndex = 3;
             // 
-            // cb_genre
+            // lb_Genre
             // 
-            this.cb_genre.FormattingEnabled = true;
-            this.cb_genre.Location = new System.Drawing.Point(470, 133);
-            this.cb_genre.Name = "cb_genre";
-            this.cb_genre.Size = new System.Drawing.Size(117, 23);
-            this.cb_genre.TabIndex = 1;
+            this.lb_Genre.AutoSize = true;
+            this.lb_Genre.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lb_Genre.Location = new System.Drawing.Point(7, 384);
+            this.lb_Genre.Name = "lb_Genre";
+            this.lb_Genre.Size = new System.Drawing.Size(38, 15);
+            this.lb_Genre.TabIndex = 1;
+            this.lb_Genre.Text = "Genre";
             // 
-            // tb_serialNum
+            // cb_Price
             // 
-            this.tb_serialNum.Location = new System.Drawing.Point(216, 133);
-            this.tb_serialNum.Name = "tb_serialNum";
-            this.tb_serialNum.Size = new System.Drawing.Size(225, 23);
-            this.tb_serialNum.TabIndex = 0;
-            this.tb_serialNum.Text = "Serial number";
+            this.cb_Price.FormattingEnabled = true;
+            this.cb_Price.Location = new System.Drawing.Point(7, 266);
+            this.cb_Price.Name = "cb_Price";
+            this.cb_Price.Size = new System.Drawing.Size(417, 23);
+            this.cb_Price.TabIndex = 3;
             // 
-            // tb_name
+            // lb_Platform
             // 
-            this.tb_name.Location = new System.Drawing.Point(16, 133);
-            this.tb_name.Name = "tb_name";
-            this.tb_name.Size = new System.Drawing.Size(149, 23);
-            this.tb_name.TabIndex = 0;
-            this.tb_name.Text = "Name";
+            this.lb_Platform.AutoSize = true;
+            this.lb_Platform.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lb_Platform.Location = new System.Drawing.Point(7, 311);
+            this.lb_Platform.Name = "lb_Platform";
+            this.lb_Platform.Size = new System.Drawing.Size(52, 15);
+            this.lb_Platform.TabIndex = 1;
+            this.lb_Platform.Text = "Platform";
+            // 
+            // dateTimePicker_ArrivelDate
+            // 
+            this.dateTimePicker_ArrivelDate.Location = new System.Drawing.Point(6, 476);
+            this.dateTimePicker_ArrivelDate.Name = "dateTimePicker_ArrivelDate";
+            this.dateTimePicker_ArrivelDate.Size = new System.Drawing.Size(417, 23);
+            this.dateTimePicker_ArrivelDate.TabIndex = 2;
+            // 
+            // dateTimePicker_ReleaseDate
+            // 
+            this.dateTimePicker_ReleaseDate.Location = new System.Drawing.Point(7, 196);
+            this.dateTimePicker_ReleaseDate.Name = "dateTimePicker_ReleaseDate";
+            this.dateTimePicker_ReleaseDate.Size = new System.Drawing.Size(417, 23);
+            this.dateTimePicker_ReleaseDate.TabIndex = 2;
+            // 
+            // lb_Price
+            // 
+            this.lb_Price.AutoSize = true;
+            this.lb_Price.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lb_Price.Location = new System.Drawing.Point(6, 248);
+            this.lb_Price.Name = "lb_Price";
+            this.lb_Price.Size = new System.Drawing.Size(32, 15);
+            this.lb_Price.TabIndex = 1;
+            this.lb_Price.Text = "Price";
+            // 
+            // lb_ArrivalDate
+            // 
+            this.lb_ArrivalDate.AutoSize = true;
+            this.lb_ArrivalDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lb_ArrivalDate.Location = new System.Drawing.Point(5, 460);
+            this.lb_ArrivalDate.Name = "lb_ArrivalDate";
+            this.lb_ArrivalDate.Size = new System.Drawing.Size(69, 15);
+            this.lb_ArrivalDate.TabIndex = 1;
+            this.lb_ArrivalDate.Text = "Arrival date";
+            // 
+            // lb_ReleaseDate
+            // 
+            this.lb_ReleaseDate.AutoSize = true;
+            this.lb_ReleaseDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lb_ReleaseDate.Location = new System.Drawing.Point(5, 178);
+            this.lb_ReleaseDate.Name = "lb_ReleaseDate";
+            this.lb_ReleaseDate.Size = new System.Drawing.Size(74, 15);
+            this.lb_ReleaseDate.TabIndex = 1;
+            this.lb_ReleaseDate.Text = "Release date";
+            // 
+            // lb_SteamKey
+            // 
+            this.lb_SteamKey.AutoSize = true;
+            this.lb_SteamKey.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lb_SteamKey.Location = new System.Drawing.Point(7, 530);
+            this.lb_SteamKey.Name = "lb_SteamKey";
+            this.lb_SteamKey.Size = new System.Drawing.Size(64, 15);
+            this.lb_SteamKey.TabIndex = 1;
+            this.lb_SteamKey.Text = "Steam-Key";
+            // 
+            // lb_Serial
+            // 
+            this.lb_Serial.AutoSize = true;
+            this.lb_Serial.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lb_Serial.Location = new System.Drawing.Point(5, 108);
+            this.lb_Serial.Name = "lb_Serial";
+            this.lb_Serial.Size = new System.Drawing.Size(80, 15);
+            this.lb_Serial.TabIndex = 1;
+            this.lb_Serial.Text = "Serial number";
+            // 
+            // lb_Name
+            // 
+            this.lb_Name.AutoSize = true;
+            this.lb_Name.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lb_Name.Location = new System.Drawing.Point(6, 38);
+            this.lb_Name.Name = "lb_Name";
+            this.lb_Name.Size = new System.Drawing.Size(39, 15);
+            this.lb_Name.TabIndex = 1;
+            this.lb_Name.Text = "Name";
+            // 
+            // tb_SteamKey
+            // 
+            this.tb_SteamKey.Location = new System.Drawing.Point(7, 546);
+            this.tb_SteamKey.Name = "tb_SteamKey";
+            this.tb_SteamKey.Size = new System.Drawing.Size(418, 23);
+            this.tb_SteamKey.TabIndex = 0;
+            // 
+            // tb_SerialNum
+            // 
+            this.tb_SerialNum.Location = new System.Drawing.Point(6, 126);
+            this.tb_SerialNum.Name = "tb_SerialNum";
+            this.tb_SerialNum.Size = new System.Drawing.Size(418, 23);
+            this.tb_SerialNum.TabIndex = 0;
+            // 
+            // tb_Name
+            // 
+            this.tb_Name.Location = new System.Drawing.Point(6, 56);
+            this.tb_Name.Name = "tb_Name";
+            this.tb_Name.Size = new System.Drawing.Size(418, 23);
+            this.tb_Name.TabIndex = 0;
+            // 
+            // gb_Output
+            // 
+            this.gb_Output.Controls.Add(this.flowLayoutPanel_List);
+            this.gb_Output.Location = new System.Drawing.Point(472, 12);
+            this.gb_Output.Name = "gb_Output";
+            this.gb_Output.Size = new System.Drawing.Size(787, 709);
+            this.gb_Output.TabIndex = 1;
+            this.gb_Output.TabStop = false;
+            this.gb_Output.Text = "Output";
+            // 
+            // flowLayoutPanel_List
+            // 
+            this.flowLayoutPanel_List.AutoScroll = true;
+            this.flowLayoutPanel_List.Controls.Add(this.dataGridView);
+            this.flowLayoutPanel_List.Location = new System.Drawing.Point(7, 23);
+            this.flowLayoutPanel_List.Name = "flowLayoutPanel_List";
+            this.flowLayoutPanel_List.Size = new System.Drawing.Size(774, 669);
+            this.flowLayoutPanel_List.TabIndex = 0;
+            // 
+            // dataGridView
+            // 
+            this.dataGridView.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.RowTemplate.Height = 25;
+            this.dataGridView.Size = new System.Drawing.Size(919, 779);
+            this.dataGridView.TabIndex = 0;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1271, 695);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(1271, 733);
+            this.Controls.Add(this.gb_Output);
+            this.Controls.Add(this.groupBox1);
             this.Name = "MainForm";
-            this.Text = "MainForm";
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.Text = "GC Module";
+            this.Load += new System.EventHandler(this.MainForm_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.gb_Output.ResumeLayout(false);
+            this.flowLayoutPanel_List.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.VScrollBar vScrollBar1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ComboBox cb_genre;
-        private System.Windows.Forms.TextBox tb_serialNum;
-        private System.Windows.Forms.TextBox tb_name;
-        private System.Windows.Forms.Button btn_search;
-        private System.Windows.Forms.ComboBox cb_incomeDate;
-        private System.Windows.Forms.ComboBox cb_releaseDate;
-        private System.Windows.Forms.ComboBox cb_platform;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ComboBox cb_Genre;
+        private System.Windows.Forms.ComboBox cb_Platform;
+        private System.Windows.Forms.Label lb_Genre;
+        private System.Windows.Forms.ComboBox cb_Price;
+        private System.Windows.Forms.Label lb_Platform;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_ArrivelDate;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_ReleaseDate;
+        private System.Windows.Forms.Label lb_Price;
+        private System.Windows.Forms.Label lb_ArrivalDate;
+        private System.Windows.Forms.Label lb_ReleaseDate;
+        private System.Windows.Forms.Label lb_SteamKey;
+        private System.Windows.Forms.Label lb_Serial;
+        private System.Windows.Forms.Label lb_Name;
+        private System.Windows.Forms.TextBox tb_SteamKey;
+        private System.Windows.Forms.TextBox tb_SerialNum;
+        private System.Windows.Forms.TextBox tb_Name;
+        private System.Windows.Forms.Button btn_UpdateItem;
+        private System.Windows.Forms.Button btn_RemoveItem;
+        private System.Windows.Forms.Button btn_AddItem;
+        private System.Windows.Forms.Button btn_Search;
+        private System.Windows.Forms.GroupBox gb_Output;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel_List;
+        private System.Windows.Forms.DataGridView dataGridView;
     }
 }

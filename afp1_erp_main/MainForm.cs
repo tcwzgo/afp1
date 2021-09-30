@@ -39,5 +39,10 @@ namespace afp1_erp_main
                 return; // csak visszatérünk az eredeti form-ba
             }
         }
+
+        private void btn_Search_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

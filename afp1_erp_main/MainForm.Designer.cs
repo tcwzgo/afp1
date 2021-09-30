@@ -105,6 +105,7 @@ namespace afp1_erp_main
             this.btn_RemoveItem.TabIndex = 5;
             this.btn_RemoveItem.Text = "Remove Item";
             this.btn_RemoveItem.UseVisualStyleBackColor = true;
+            this.btn_RemoveItem.Click += new System.EventHandler(this.btn_RemoveItem_Click);
             // 
             // btn_AddItem
             // 
@@ -160,7 +161,7 @@ namespace afp1_erp_main
             // 
             this.lb_Genre.AutoSize = true;
             this.lb_Genre.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.lb_Genre.Location = new System.Drawing.Point(7, 384);
+            this.lb_Genre.Location = new System.Drawing.Point(7, 388);
             this.lb_Genre.Name = "lb_Genre";
             this.lb_Genre.Size = new System.Drawing.Size(38, 15);
             this.lb_Genre.TabIndex = 1;
@@ -178,7 +179,7 @@ namespace afp1_erp_main
             // 
             this.lb_Platform.AutoSize = true;
             this.lb_Platform.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.lb_Platform.Location = new System.Drawing.Point(7, 311);
+            this.lb_Platform.Location = new System.Drawing.Point(8, 318);
             this.lb_Platform.Name = "lb_Platform";
             this.lb_Platform.Size = new System.Drawing.Size(52, 15);
             this.lb_Platform.TabIndex = 1;

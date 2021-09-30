@@ -16,5 +16,28 @@ namespace afp1_erp_main
         {
             InitializeComponent();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_RemoveItem_Click(object sender, EventArgs e)
+        {
+            DialogResult deleteRecordYesNo = MessageBox.Show (
+                "Are you sure you want to delete this product?", 
+                "Remove item", 
+                MessageBoxButtons.YesNo); // itt majd valahogy el kellene tárolnunk az output-ból kiválasztott record (termék)
+                //tulajdonságait és azt törölni
+
+            if (deleteRecordYesNo == DialogResult.Yes)
+            {
+                // Products.Remove(....) adott terméket törölni a fentiek alapján
+            }
+            else if (deleteRecordYesNo == DialogResult.No)
+            {
+                return; // csak visszatérünk az eredeti form-ba
+            }
+        }
     }
 }

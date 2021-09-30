@@ -99,6 +99,7 @@ namespace afp1_erp_main
             this.btn_UpdateItem.TabIndex = 5;
             this.btn_UpdateItem.Text = "Update Item";
             this.btn_UpdateItem.UseVisualStyleBackColor = true;
+            this.btn_UpdateItem.Click += new System.EventHandler(this.btn_UpdateItem_Click);
             // 
             // btn_RemoveItem
             // 

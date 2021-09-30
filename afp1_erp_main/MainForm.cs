@@ -47,5 +47,10 @@ namespace afp1_erp_main
         {
             
         }
+
+        private void btn_UpdateItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

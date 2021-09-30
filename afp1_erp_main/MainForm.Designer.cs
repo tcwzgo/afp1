@@ -119,6 +119,7 @@ namespace afp1_erp_main
             this.btn_AddItem.TabIndex = 5;
             this.btn_AddItem.Text = "Add Item";
             this.btn_AddItem.UseVisualStyleBackColor = true;
+            this.btn_AddItem.Click += new System.EventHandler(this.btn_AddItem_Click);
             // 
             // btn_Search
             // 

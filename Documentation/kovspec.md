@@ -172,20 +172,6 @@ az Üzemeltető a fentebb említett időszakban válaszol.
 
 
 
-### Követelménylista
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Fogalomtár
 -

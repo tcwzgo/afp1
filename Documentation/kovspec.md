@@ -59,9 +59,9 @@ az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tároln
 
 Kivonat az 1999. évi LXXVI. szerzői jogi törvényből:
 	<p>*1.§* 	(2) Szerzői jogi védelem alá tartozik – függetlenül attól, hogy e törvény megnevezi-e – 
-				az irodalom, a tudomány és a művészet minden alkotása. Ilyen alkotásnak minősül különösen: (...)
-				c) a *számítógépi programalkotás és a hozzá tartozó dokumentáció (a továbbiakban: szoftver) akár forráskódban, akár tárgykódban vagy bármilyen más formában* rögzített minden fajtája, ideértve a felhasználói programot és az operációs rendszert is.
-	(...) 	(3) A szerzői jogi védelem az alkotást a szerző szellemi tevékenységéből fakadó egyéni, eredeti jellege alapján illeti meg. A védelem nem függ mennyiségi, minőségi, esztétikai jellemzőktől vagy az alkotás színvonalára vonatkozó értékítélettől.</p>
+				az irodalom, a tudomány és a művészet minden alkotása. Ilyen alkotásnak minősül különösen: (...)</p>
+			<p> c) a *számítógépi programalkotás és a hozzá tartozó dokumentáció (a továbbiakban: szoftver) akár forráskódban, akár tárgykódban vagy bármilyen más formában* rögzített minden fajtája, ideértve a felhasználói programot és az operációs rendszert is.</p>
+	(...) 	<p>(3) A szerzői jogi védelem az alkotást a szerző szellemi tevékenységéből fakadó egyéni, eredeti jellege alapján illeti meg. A védelem nem függ mennyiségi, minőségi, esztétikai jellemzőktől vagy az alkotás színvonalára vonatkozó értékítélettől.</p>
 	(...)
 	*4.$* 	(1) A szerzői jog *azt illeti, aki a művet megalkotta* (szerző).
 			(2) *Szerzői jogi védelem* alatt áll – az eredeti mű szerzőjét megillető jogok sérelme nélkül – más szerző művének átdolgozása, feldolgozása vagy fordítása is, ha annak egyéni, eredeti jellege van.

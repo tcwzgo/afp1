@@ -14,6 +14,7 @@ namespace afp1_erp_main
     {
         public MainForm()
         {
+            
             InitializeComponent();
         }
 

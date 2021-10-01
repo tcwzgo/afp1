@@ -1,4 +1,4 @@
-## Funkcionális specifikáció
+# Funkcionális specifikáció
 
 ### Áttekintés
 

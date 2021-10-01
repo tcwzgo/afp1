@@ -2,8 +2,9 @@
 
 ### Áttekintés
 
-
-
+Az alklamazásunk árusítás és tárolás céljából készült. Rendelkezik egy bejelentkeztető felülettel amelyben
+a jogosult személy be tud lépni az alkalmazás telepítését követően. A Szűrőfelület a validálás után megjelenik
+és az adott feltételek/pontok szerint lehet szűrni az alkalmazásban található adatok igénybevételével.
 
 
 ### Jelenlegi helyzet
@@ -84,73 +85,64 @@ Szellemi Tulajdon egyéb jogosultjai által.
 
 ### Használat
 
-
-
-
-
-
-
-
+Az Alkalmazás Felhasználói 18 éven felüli ismeretekkel rendelkező személyek lehetnek. Az Alkalmazás díjmentesen vehető igénybe,
+Az Alkalmazás letöltéséért és használatáért az adatforgalmat biztosító szolgáltató külön díjat számíthat fel. Az ezzel kapcsolatos esetlegesen
+felmerülő költségek a Felhasználót terhelik.
 
 ### Felelősségi szabályok
 
+Az Alkalmazáshoz kapcsolódó adatbázis módosítása kizárólag az Üzemeltető által, illetve az Alkalmazást üzemeltető webkiszolgálón keresztül
+lehetséges. Bármilyen külső, nem az Alkalmazás részeként elérhető eszközzel történő beavatkozás a Felhasználó azonnali kizárását eredményezi.
 
+Ha a Felhasználó az Alkalmazást használat közben bezárja, vagy ha a kapcsolat (bármely okból) megszakad a kiszolgáló webhelyével,
+abban az esetben az adatok elvesztéséért a Tulajdonos semmilyen felelősséget nem vállal. A Tulajdonos és az Üzemeltető a rendelkezésére álló
+eszközökkel biztosítja, hogy az Alkalmazás használata technikai szempontból biztonságosnak minősüljön.
 
-
-
-
-
-
-
-
-
+Az Alkalmazáshoz való csatlakozás miatt bekövetkező károkért, az internetes hálózat esetleges üzemkimaradásából, 
+az elérési út hibájából, bármely nem várt technikai hibából eredő adatvesztésért, vírusból, vagy más károkért a Tulajdonos nem felelős. 
+A Felhasználóknak minden esetben fel kell mérniük, hogy rendelkeznek-e az Alkalmazás használatához szükséges ismeretekkel, 
+technikai követelményekkel és teljesítményekkel.
+A Tulajdonos fenntartja magának a jogot arra, hogy amennyiben valamely Felhasználó részéről bármilyen manipulációt, tömegesen generált letöltést,
+illetve az Alkalmazás szellemével bármilyen módon összeférhetetlen vagy azt sértő magatartást tapasztal, 
+vagy ennek megalapozott gyanúja felmerül, úgy a Felhasználót azonnali hatállyal kizárja az Alkalmazás felhasználói köréből.
 
 
 
 
 ### Technikai követelmények
+Az Alkalmazás használatához szükséges technikai feltételek: Windows 10 operációs rendszer valamint minimum 400 MB szabad tárhely. 
+A technikai feltételeket az Alkalmazás letöltéséhez és használatához a Felhasználónak kell teljesítenie. A technikai feltételek nem teljesüléséért a Tulajdonos nem vonható felelősségre.
+Ugyanígy nem vonható felelősségre a Tulajdonos az Alkalmazás használatából a készüléken bekövetkező adatvesztésért, meghibásodásért. 
+A Tulajdonos kizár minden kártérítési felelősséget az Alkalmazáshoz csatlakozó minden külső szerver által nyújtott
+vagy megjelenített adattal, információval kapcsolatban is.
 
-
-
-
-
-
-
-
-
-
+Az Alkalmazás telepítéssel vehető használatba.
 
 
 ### Garancia és kártérítés
 
-
-
-
-
-
-
-
-
+Az Alkalmazás használatához a felhasználói oldalon szükséges – fent meghatározott vagy bármely egyéb - technikai feltételeket a Felhasználónak kell biztosítania, teljesítenie.
+Ezen technikai feltételek nem teljesüléséért a Tulajdonos nem vonható felelősségre. Ugyanígy nem vonható felelősségre a Tulajdonos az Alkalmazás használatából adódóan, 
+a készüléken bekövetkező adatvesztésért, meghibásodásért. A Tulajdonos kizár minden kártérítési felelősséget az Alkalmazáshoz csatlakozó minden külső szoftver által nyújtott
+vagy megjelenített adattal, információval kapcsolatban. A Tulajdonos nem vállal garanciát az Alkalmazás megszakításmentes működéséért, 
+valamint vis major hibákért. Az ebből eredő adatvesztésért, tartalom vesztésért a Tulajdonos szintén nem tartozik kártérítési felelősséggel.
 
 
 
 ### Egyéb rendelkezések
 
-
-
-
-
-
-
-
-
-
-
+Jelen Felhasználási Feltételekben nem szabályozott kérdésekben a hatályos jogszabályok – különösen,
+de nem kizárólagosan a Polgári Törvénykönyvről szóló 2013. évi V. törvény, az Európai Parlament és Tanács 2016. április 27-i (EU) 2016/679 Rendelete
+a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK 
+irányelv hatályon kívül helyezéséről, az információs önrendelkezési jogról és az információ szabadságról szóló 2011. évi CXII. törvény, a szerzői jogról
+szóló 1999. évi LXXVI. törvény, valamint az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások
+egyes kérdéseiről szóló 2001. évi CVIII. törvény – rendelkezései az irányadóak.
 
 
 ### Kapcsolat
-
-
+Az Alkalmazás üzemeltetését és támogatását az Üzemeltető végzi munkanapokon, 8:00 és 16:00 között
+Az Alkalmazás működésével kapcsolatban a fejlesztők közös NTBSLHK@gmail.com e-mail címére küldheti a kérdéseit, amelyre
+az Üzemeltető a fentebb említett időszakban válaszol.
 
 
 ### Jelenlegi üzleti folyamatok

@@ -1,6 +1,6 @@
-##Funkcionális specifikáció
+## Funkcionális specifikáció
 
-###Áttekintés
+### Áttekintés
 
 A funkcionális specifikáció	folyamán konstatáljuk, hogy konkrétan milyen célokra, 
 milyen felhasználási területre készül a termékünk, az általunk fejlesztett szoftver.
@@ -10,12 +10,12 @@ Ezek alapján a megrendelő képes lesz saját legjobb belátása szerint eldön
 szerződik-e kis csapatunkkal a termék kidolgozásának, tesztelési fázisának, 
 végül annak értékesítésének, átadásának idejére, avagy nem tart igényt rá.
 
-###Jelenlegi helyzet
+### Jelenlegi helyzet
 
 Videojátékokkal foglalkozó boltunkban megnőtt a beérkező megrendelések, megkeresések száma,
 ami a papíron történő leltárazást teszi egyre komplikáltabbá, időigényesebbé.
 
-###Vágyálom rendszer
+### Vágyálom rendszer
 
 - Kell egy adatbázis a háttér adatoknak
 - Grafikus felület -> WinForm App
@@ -23,14 +23,14 @@ ami a papíron történő leltárazást teszi egyre komplikáltabbá, időigény
 - Adatbázis implementációja: Fájlban (xls, txt, csv, stb...)
 - Fel tudunk venni termékeket ( játéknév, platformok, ár, megjelenés dátuma, beérkezés dátuma, cikkszám, darabszám, Steam-kulcs (ha van) ) --> ezek már kvázi adatbázis-mezők
 
-###Elvárások
+### Elvárások
 
 Egy leltárazó program ahol, tudunk módosítani a státuszukon (készleten, eladva, elfogadásra vár), 
 lapozás funkció (görgetéssel előre-hátra lapoz) szűrés platform, 
 ár alapján keresés cikkszám, név alapján szükség lesz tervezett takarításokra is, 
 az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tárolni,csak számlákon
 
-###A rendszer céljai és nem céljai
+### A rendszer céljai és nem céljai
 
 Projektünk egy leltározó szoftvert valósít meg (hasonló mint például egy SAP). 
 Ebben tudunk szűrni többféle feltétel szerint, 
@@ -38,7 +38,7 @@ mint pl.: idő, zsáner, ár, platform, megjelenés dátuma, cikkszám.
 A program *nem* egy webshop-ként funkcionál tehát nem valósítunk meg benne pl.: kosár funkciót/vásárlás funkciót.
 Rendszerünk célja továbbá, hogy legyen letisztult, gyors és hatékony a fentebb definiált rutinokban!
 
-###Jelenlegi üzleti folyamatok modellje
+### Jelenlegi üzleti folyamatok modellje
 
 
 
@@ -46,7 +46,7 @@ Rendszerünk célja továbbá, hogy legyen letisztult, gyors és hatékony a fen
 
 
 
-###Igényelt üzleti folyamatok modellje
+### Igényelt üzleti folyamatok modellje
 
 
 
@@ -55,7 +55,7 @@ Rendszerünk célja továbbá, hogy legyen letisztult, gyors és hatékony a fen
 
 
 
-###Követelmény lista
+### Követelmény lista
 
 A követelményspecifikációban taglaltak szerint fogunk eljárni a tervezés során.
 Szigorúan betartjuk a felénk benyújtott követelményeket amennyiben a szerződés megköttetik.
@@ -64,7 +64,7 @@ Ugyanakkor fontos azt is megemlítenünk, hogy a fejlesztő csapatnak is jogába
 
 
 
-###Használati esetek (use-case)
+### Használati esetek (use-case)
 A felhasználónak elsőnek be kell jelentkezni amennyiben tudatában van a rendszernek a validáló adataival abban az esetben
 a belépés engedélyezett, amennyiben nem tudja ezeket az adatok a rendszer nem engedi tovább.
 Amennyiben a belépés sikeres volt a rendszer azonnal megjeleníti számára a szoftvernek az összes funkcióit.
@@ -73,7 +73,7 @@ Ezek után megtekintheti az így elkészült adatoknak a listáját.
 
 
 
-###Képernyő tervek
+### Képernyő tervek
 
 Az első kapu a szoftverünkben egy bejelentkezési felület, amely megakadályoz bármilyen illetéktelen bejelentkezést
 Szerkezetileg egy minimális méretű ablakról van szó, amely két kitöldendő mezőt tartalmaz és egy bejelentkezés gombot
@@ -83,7 +83,7 @@ A szűrőket legördülő menükkel valósítjuk meg (persze ahol ez értelmezhe
 A szűrök kitöltése után a "Keresés" gombra kattintva megjelennek előttünk a megfelelő tételek.
 Funkciója még egy hozzáadás, amely egy újabb ablakot hív elő, ahol a megfelelő paraméterekkel fel tudunk venni egy újabb terméket.
 
-###Fogalomszótár
+### Fogalomszótár
 
 -Grafikus felhasználói felület: a számítógép és ember közti kapcsolatot megvalósító elemek összessége. 
 -Platform: Olyan rendszer amelyen az adott játék/szoftver elindítható.

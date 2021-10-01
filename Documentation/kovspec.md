@@ -57,7 +57,7 @@ az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tároln
 
 ## Rendszerre vonatkozó törvények
 
-** Kivonat az 1999. évi LXXVI. szerzői jogi törvényből: **
+### Kivonat az 1999. évi LXXVI. szerzői jogi törvényből:
 	<p>*1.§* 	(2) Szerzői jogi védelem alá tartozik – függetlenül attól, hogy e törvény megnevezi-e – 
 				az irodalom, a tudomány és a művészet minden alkotása. Ilyen alkotásnak minősül különösen: (...)</p>
 			<p>&emsp; &emsp;c) a *számítógépi programalkotás és a hozzá tartozó dokumentáció (a továbbiakban: szoftver) akár forráskódban, akár tárgykódban vagy bármilyen más formában* rögzített minden fajtája, ideértve a felhasználói programot és az operációs rendszert is.(...)</p>

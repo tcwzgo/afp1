@@ -2,9 +2,9 @@
 
 ### Áttekintés
 
-Az alklamazásunk árusítás és tárolás céljából készült. Rendelkezik egy bejelentkeztető felülettel amelyben
-a jogosult személy be tud lépni az alkalmazás telepítését követően. A Szűrőfelület a validálás után megjelenik
-és az adott feltételek/pontok szerint lehet szűrni az alkalmazásban található adatok igénybevételével.
+Az alklamazásunk árusítás és tárolás céljából készült. Rendelkezik egy bejelentkeztető felülettel, amelyben
+a jogosult személy be tud lépni az alkalmazás telepítését követően. A Szűrőfelület a validálás után megjelenik,
+és a megadott lehetőségek szerint lehet szűrni az alkalmazásban található adatok képernyőn való megjelenítését.
 
 
 ### Jelenlegi helyzet
@@ -162,16 +162,19 @@ az Üzemeltető a fentebb említett időszakban válaszol.
 
 
 ### Jelenlegi üzleti folyamatok
-
-
-
-
+A mai világban népszerű a különböző szolgáltatói tevékenységek digitalizálása a megszokott papírforma helyett.
+A papírforma a jelenlegi felgyorsult életünkben elavulttá vált, a papírtömbök által tartalmazott információk 
+esetleges elvesztése, sérülése esetén nehezen pótolhatóak.
+Továbbá ezen tárolási formátum jelentős ökológiai lábnyomot hagy annak ellenére is, hogy ilyen kis cég vagyunk.
+A papírra vetett dokumentumok fizikai helyigénye számottevőbb, szemben a digitalizált dokumentumokkal.
 
 ### Igényelt üzleti folyamatok
-
-
-
-
+Fent említett okokból következően cégünknek is haladnia kell a kor egyre növekvő elvárásaival, 
+és ezáltal szükséges lépéssé vált egy jól funkcionáló informatikai leltárrendszer kiépítése.
+Ezalatt egy offline szoftveres felületet értünk, amelynek segítségével lehetővé válik 
+raktári dolgozóink számára a beérkező videojátékok figyelemmel követése és rendszerezése.
+Természetesen ez a felület legyen jelszóval védett, ugyanis nem szeretnénk, ha egy esetleges 
+illetéktelen, rosszindulatú személy féltett üzleti titkainkat osztaná meg a külvilággal.
 
 ### Fogalomtár
 -

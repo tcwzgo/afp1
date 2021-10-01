@@ -177,9 +177,9 @@ Természetesen ez a felület legyen jelszóval védett, ugyanis nem szeretnénk,
 illetéktelen, rosszindulatú személy féltett üzleti titkainkat osztaná meg a külvilággal.
 
 ### Fogalomtár
--
--
--
+-Grafikus felhasználói felület: a számítógép és ember közti kapcsolatot megvalósító elemek összessége. 
+-Platform: Olyan rendszer amelyen az adott játék/szoftver elindítható.
+-Szűrés: Adott gomb lenyomása esetén itt lesz lehetőség szűrni valamilyen feltétel alapján.
 -
 -
 -

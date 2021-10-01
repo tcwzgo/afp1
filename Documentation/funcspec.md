@@ -39,26 +39,19 @@ A program *nem* egy webshop-ként funkcionál tehát nem valósítunk meg benne 
 Rendszerünk célja továbbá, hogy legyen letisztult, gyors és hatékony a fentebb definiált rutinokban!
 
 ### Jelenlegi üzleti folyamatok modellje
-
-
-
-
-
-
+A követelményspecifikációban kifejtett elvek teljes mértékben érvényesülnek ezen dokumentum soraiban is.
+A megfelelő sorok megtalálhatók a másik dokumentum ugyanezen elnevezésű fejezetében 
+(értsd: Jelenlegi üzleti folyamatok, 164.sortól kezdődően)
 
 ### Igényelt üzleti folyamatok modellje
+A követelményspecifikációban kifejtett elvek teljes mértékben érvényesülnek ezen dokumentum soraiban is.
+A megfelelő sorok megtalálhatók a másik dokumentum ugyanezen elnevezésű fejezetében 
+(értsd: Igényelt üzleti folyamatok, 171.sortól kezdődően)
 
-
-
-
-
-
-
-
-### Követelmény lista
+### Követelménylista
 
 A követelményspecifikációban taglaltak szerint fogunk eljárni a tervezés során.
-Szigorúan betartjuk a felénk benyújtott követelményeket amennyiben a szerződés megköttetik.
+Szigorúan betartjuk a felénk benyújtott követelményeket, amennyiben a szerződés megköttetik.
 Ezen elvektől bármilyen formájú eltérés esetén az Ügyfélnek jogában áll panasszal fordulni hozzánk.
 Ugyanakkor fontos azt is megemlítenünk, hogy a fejlesztő csapatnak is jogában áll ezen elvekre hivatkozva fellebbezni a vevő félnél.
 
@@ -83,7 +76,7 @@ A szűrőket legördülő menükkel valósítjuk meg (persze ahol ez értelmezhe
 A szűrök kitöltése után a "Keresés" gombra kattintva megjelennek előttünk a megfelelő tételek.
 Funkciója még egy hozzáadás, amely egy újabb ablakot hív elő, ahol a megfelelő paraméterekkel fel tudunk venni egy újabb terméket.
 
-### Fogalomszótár
+### Fogalomtár
 
 -Grafikus felhasználói felület: a számítógép és ember közti kapcsolatot megvalósító elemek összessége. 
 -Platform: Olyan rendszer amelyen az adott játék/szoftver elindítható.

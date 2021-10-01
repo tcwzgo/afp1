@@ -57,6 +57,7 @@ az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tároln
 
 ## Rendszerre vonatkozó törvények
 
+	### Szerzői jogok
 **Kivonat az 1999. évi LXXVI. szerzői jogi törvényből:**
 	<p>*1.§* 	(2) Szerzői jogi védelem alá tartozik – függetlenül attól, hogy e törvény megnevezi-e – 
 				az irodalom, a tudomány és a művészet minden alkotása. Ilyen alkotásnak minősül különösen: (...)</p>
@@ -71,6 +72,11 @@ az elkelt játékokat pl. vétel után egy hónappal már nincs értelme tároln
 			<p>&emsp;(2) A felhasználási szerződésben sem zárható ki, hogy a felhasználó egy biztonsági másolatot készíthessen a szoftverről, ha az a felhasználáshoz szükséges.</p>
 			<p>&emsp;(3) Aki a szoftver valamely példányának felhasználására jogosult, a szerző engedélye nélkül is megfigyelheti és tanulmányozhatja a szoftver működését, továbbá kipróbálhatja a szoftvert annak betáplálása, képernyőn való megjelenítése, futtatása, továbbítása vagy tárolása során abból a célból, hogy a szoftver valamely elemének alapjául szolgáló elgondolást vagy elvet megismerje.</p>
 <p>(Forrás: NJT)</p>
+	### Technikai követelmények
+		Az Alkalmazás használatához szükséges technikai feltételek: Windows XP operációs rendszer valamint minimum 100 MB szabad tárhely és a használathoz megfelelő sávszélességű internetelérés. A technikai feltételeket az Alkalmazás letöltéséhez és használatához a Felhasználónak kell teljesítenie. A technikai feltételek nem teljesüléséért a Tulajdonos nem vonható felelősségre. Ugyanígy nem vonható felelősségre a Tulajdonos az Alkalmazás használatából a készüléken bekövetkező adatvesztésért, meghibásodásért. A Tulajdonos kizár minden kártérítési felelősséget az Alkalmazáshoz csatlakozó minden külső szerver által nyújtott (kiemelten Facebook adatok átvétele) vagy megjelenített adattal, információval kapcsolatban is.
+		Az Alkalmazás telepítéssel vehető használatba.
+	### Garancia és kártérítés
+		Az Alkalmazás használatához a felhasználói oldalon szükséges – fent meghatározott vagy bármely egyéb - technikai feltételeket a Felhasználónak kell biztosítania, teljesítenie. Ezen technikai feltételek nem teljesüléséért a Tulajdonos nem vonható felelősségre. Ugyanígy nem vonható felelősségre a Tulajdonos az Alkalmazás használatából adódóan, a készüléken bekövetkező adatvesztésért, meghibásodásért. A Tulajdonos kizár minden kártérítési felelősséget az Alkalmazáshoz csatlakozó minden külső szoftver által nyújtott (így kiemelten Facebook adatok átvétele) vagy megjelenített adattal, információval kapcsolatban. A Tulajdonos nem vállal garanciát az Alkalmazás megszakításmentes működéséért, valamint vis major hibákért. Az ebből eredő adatvesztésért, tartalom vesztésért a Tulajdonos szintén nem tartozik kártérítési felelősséggel.
 
 ### Általános Információk
 Az Alkalmazásnak a használatát és a hozzáférését megelőzi az alkalmazandó jogszabályok és a jelen Felhasználási Feltételek

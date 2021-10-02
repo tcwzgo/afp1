@@ -38,3 +38,5 @@ D:\GET\AFP1\afp1\afp1_erp_main\obj\Debug\net5.0-windows\afp1_erp_main.pdb
 D:\GET\AFP1\afp1\afp1_erp_main\obj\Debug\net5.0-windows\afp1_erp_main.genruntimeconfig.cache
 E:\School\Codes\Afp1_repo\afp1\afp1_erp_main\bin\Debug\net5.0-windows\SupplementaryDLL.dll
 E:\School\Codes\Afp1_repo\afp1\afp1_erp_main\obj\Debug\net5.0-windows\afp1_erp_main.csproj.CopyComplete
+D:\GET\AFP1\afp1\afp1_erp_main\bin\Debug\net5.0-windows\SupplementaryDLL.dll
+D:\GET\AFP1\afp1\afp1_erp_main\obj\Debug\net5.0-windows\afp1_erp_main.csproj.CopyComplete

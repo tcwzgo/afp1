@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "afp1_erp_main/1.0.0": {
+        "dependencies": {
+          "SupplementaryDLL": "1.0.0.0"
+        },
         "runtime": {
           "afp1_erp_main.dll": {}
+        }
+      },
+      "SupplementaryDLL/1.0.0.0": {
+        "runtime": {
+          "SupplementaryDLL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "afp1_erp_main/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SupplementaryDLL/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

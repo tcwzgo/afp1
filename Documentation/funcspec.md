@@ -78,9 +78,9 @@ Funkciója még egy hozzáadás, amely egy újabb ablakot hív elő, ahol a megf
 
 ### Fogalomtár
 
--Grafikus felhasználói felület: a számítógép és ember közti kapcsolatot megvalósító elemek összessége. 
--Platform: Olyan rendszer amelyen az adott játék/szoftver elindítható.
--Szűrés: Adott gomb lenyomása esetén itt lesz lehetőség szűrni valamilyen feltétel alapján.
+- Grafikus felhasználói felület: a számítógép és ember közti kapcsolatot megvalósító elemek összessége. 
+- Platform: Olyan rendszer amelyen az adott játék/szoftver elindítható.
+- Szűrés: Adott gomb lenyomása esetén itt lesz lehetőség szűrni valamilyen feltétel alapján.
 - PLayStation: Konzolos játékok számára készült gépezet amely mára már világméretűre nőtte ki magát.
  
 

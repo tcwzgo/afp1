@@ -66,7 +66,7 @@ namespace afp1_erp_main
             {
                 Thread t = new Thread(Run);
                 t.Start();
-                this.Close();
+                Close();
             }
             
         }

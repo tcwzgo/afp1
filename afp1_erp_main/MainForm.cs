@@ -23,8 +23,8 @@ namespace afp1_erp_main
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            GameShop gameShop = new GameShop();
-            gameShop.FajlBeolvas("inputfile.csv");
+            GameShop gameShop = new GameShop("inputfile.csv");
+            gameShop.ReadFromFile();
             dataGridView.DataSource = gameShop.VidGames;
         }
 

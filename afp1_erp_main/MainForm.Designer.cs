@@ -323,6 +323,7 @@ namespace afp1_erp_main
             this.btn_Sort.TabIndex = 2;
             this.btn_Sort.Text = "Sort";
             this.btn_Sort.UseVisualStyleBackColor = true;
+            this.btn_Sort.Click += new System.EventHandler(this.btn_Sort_Click);
             // 
             // cb_Sort
             // 

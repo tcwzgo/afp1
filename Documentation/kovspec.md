@@ -178,7 +178,12 @@ illetéktelen, rosszindulatú személy féltett üzleti titkainkat osztaná meg 
 
 ### Fogalomtár
 
- - Grafikus felhasználói felület: a számítógép és ember közti kapcsolatot megvalósító elemek összessége. 
+ - Grafikus felhasználói felület (GUI): a számítógép és ember közti kapcsolatot megvalósító elemek összessége. 
  - Platform: Olyan rendszer amelyen az adott játék/szoftver elindítható.
  - Szűrés: Adott gomb lenyomása esetén itt lesz lehetőség szűrni valamilyen feltétel alapján.
+ - Esemény: pl.: egy adott gomb lenyomására lefutó kódrészlet
+ - Admin: rendszergazda
+ - Panel: a képernyőnek egy adott szekciója
+ - Input: bejövő adatok összessége
+ - Output: kimenő, művelet utáni adatok
 

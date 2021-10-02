@@ -6,4 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="SupplementaryDLL">
+      <HintPath>DLL\SupplementaryDLL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

@@ -7,20 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SupplementaryDLL;
+
 
 namespace afp1_erp_main
 {
     public partial class MainForm : Form
     {
+        
+        
         public MainForm()
         {
-            
             InitializeComponent();
         }
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
+            GameShop gameShop = new GameShop();
+            gameShop.FajlBeolvas("inputfile.csv");
+            dataGridView.DataSource = gameShop.VidGames;
         }
 
         private void btn_RemoveItem_Click(object sender, EventArgs e)
@@ -55,6 +60,11 @@ namespace afp1_erp_main
         }
 
         private void btn_AddItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Sort_Click(object sender, EventArgs e)
         {
 
         }

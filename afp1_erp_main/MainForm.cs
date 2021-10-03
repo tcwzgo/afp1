@@ -55,70 +55,84 @@ namespace afp1_erp_main
                 return; // csak visszatérünk az eredeti form-ba
             }
         }
-
         private void btn_Search_Click(object sender, EventArgs e)
         {
-            string searchName = tb_Name.Text;
-            string searchSerial = tb_SerialNum.Text;
-            DateTime releaseDate = dateTimePicker_ReleaseDate.Value;
-            int searchPrice = int.Parse(tb_Price.Text);
-            string searchPlatform = (string)cb_Platform.SelectedItem;
-            string searchGenre = (string)cb_Genre.SelectedItem;
-            DateTime arrivelDate = dateTimePicker_ArrivelDate.Value;
 
             // ha mindegyik null akkor az összeset ki listázza, ha csak egy van beírva akkor arra szűrünk
-            //if ()
-            //{
-                
-            //}
-
         }
 
         private void btn_UpdateItem_Click(object sender, EventArgs e)
         {
 
         }
-
         private void btn_AddItem_Click(object sender, EventArgs e)
         {
-            string searchName = tb_Name.Text;
-            string searchSerial = tb_SerialNum.Text;
-            DateTime releaseDate = dateTimePicker_ReleaseDate.Value;
-            ushort searchPrice = ushort.Parse(tb_Price.Text);
-            string searchPlatform = (string)cb_Platform.SelectedItem;
-            string searchGenre = (string)cb_Genre.SelectedItem;
-            DateTime arrivelDate = dateTimePicker_ArrivelDate.Value;
-            string searchSteamKey = tb_SteamKey.Text;
 
-            gameShop.Add(new Product(
-                searchName, 
-                (E_Platforms)Enum.Parse(typeof(E_Platforms), searchPlatform), 
-                searchPrice,
-                Budget(), 
-                (E_Genres)Enum.Parse(typeof(E_Genres), searchGenre), 
-                (DateTime)releaseDate, 
-                (DateTime)arrivelDate, 
-                searchSerial,
-                searchSteamKey
-                ));
-
+            Product newGame = CreateInstanceFromGUIInput();
+            gameShop.Add(newGame); //fájlba írást is elvégzi!
             dataGridView.DataSource = gameShop.VidGames;
-        }
-
-        public string Budget()
-        {
-            Random rnd = new Random();
-            int value = rnd.Next(0, 1);
-            if (value == 0)
-            {
-                return "AAA";
-            }
-            return "indie";
         }
 
         private void btn_Sort_Click(object sender, EventArgs e)
         {
+            GameShop.Sortings sort = null; bool asc = true;
+            switch (cb_Sort.SelectedIndex)
+            {
+                case 0: sort = gameShop.SortByPrice; asc = true; break;
+                case 1: sort = gameShop.SortByPrice; asc = false; break;
+                case 2: sort = gameShop.SortByName; asc = true; break;
+                case 3: sort = gameShop.SortByName; asc = false; break;
+                case 4: sort = gameShop.SortBySerial; asc = true; break;
+                case 5: sort = gameShop.SortBySerial; asc = false; break;
+                default: break;
+            }
+            sort(asc);
+            dataGridView.DataSource = gameShop.VidGames;
+        }
+        private void btn_Filter_Click(object sender, EventArgs e)
+        {
 
+        }
+        private void cbF_Price_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            num2ndPrice.Visible = cbF_Price.SelectedIndex == 0 ? true : false;
+        }
+        private Product CreateInstanceFromGUIInput()
+        {
+            Random rnd = new Random();
+            string inName = tb_Name.Text;
+            string inSerial = tb_SerialNum.Text;
+            DateTime inReleaseDate = dateTimePicker_ReleaseDate.Value;
+            ushort inPrice = ushort.Parse(tb_Price.Text);
+            E_Platforms inPlatform;
+            //platform enummá alakítása a comboBox alapján
+            switch (cbF_Platform.SelectedIndex)
+            {
+                case 0: inPlatform = E_Platforms.Windows; break;
+                case 1: inPlatform = E_Platforms.PS4; break;
+                case 2: inPlatform = E_Platforms.PS5; break;
+                case 3: inPlatform = E_Platforms.Xbox; break;
+                case 4: inPlatform = E_Platforms.Stadia; break;
+                case 5: inPlatform = E_Platforms.Switch; break;
+                default: inPlatform = E_Platforms.Windows; break;
+            }
+            E_Genres inGenre = (E_Genres)Enum.Parse(typeof(E_Genres), cb_Genre.SelectedItem.ToString());
+            string inBudget = cb_Budget.SelectedItem.ToString();
+
+            DateTime inArrivalDate = dateTimePicker_ArrivelDate.Value;
+            string inSteamKey = tb_SteamKey.Text;
+            Product p = new Product(
+                    name: inName,
+                    platform: inPlatform,
+                    price: inPrice,
+                    budget: inBudget,
+                    genre: inGenre,
+                    releaseDate: inReleaseDate,
+                    arrivalDate: inArrivalDate,
+                    serialNumber: inSerial,
+                    steamKey: inSteamKey
+                );
+            return p;
         }
     }
 }

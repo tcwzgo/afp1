@@ -14,8 +14,8 @@ namespace afp1_erp_main
 {
     public partial class MainForm : Form
     {
-        
-        
+        GameShop gameShop;
+
         public MainForm()
         {
             InitializeComponent();
@@ -23,7 +23,7 @@ namespace afp1_erp_main
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            GameShop gameShop = new GameShop("inputfile.csv");
+            gameShop = new GameShop("inputfile.csv");
             gameShop.ReadFromFile();
             dataGridView.DataSource = gameShop.VidGames;
         }
@@ -42,6 +42,11 @@ namespace afp1_erp_main
                 // dataGridView.SelectedRows
                 // törlés után refresh
                 // dataGridView.Refresh
+                foreach (DataGridViewCell cell in dataGridView.SelectedCells)
+                {
+                    gameShop.Remove(cell.RowIndex);
+                }
+                dataGridView.DataSource = gameShop.VidGames;
             }
             else if (deleteRecordYesNo == DialogResult.No)
             {

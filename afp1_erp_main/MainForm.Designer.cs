@@ -37,7 +37,6 @@ namespace afp1_erp_main
             this.cb_Genre = new System.Windows.Forms.ComboBox();
             this.cb_Platform = new System.Windows.Forms.ComboBox();
             this.lb_Genre = new System.Windows.Forms.Label();
-            this.cb_Price = new System.Windows.Forms.ComboBox();
             this.lb_Platform = new System.Windows.Forms.Label();
             this.dateTimePicker_ArrivelDate = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker_ReleaseDate = new System.Windows.Forms.DateTimePicker();
@@ -56,6 +55,7 @@ namespace afp1_erp_main
             this.btn_Sort = new System.Windows.Forms.Button();
             this.cb_Sort = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.tb_Price = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.gb_Output.SuspendLayout();
             this.flowLayoutPanel_List.SuspendLayout();
@@ -71,7 +71,6 @@ namespace afp1_erp_main
             this.groupBox1.Controls.Add(this.cb_Genre);
             this.groupBox1.Controls.Add(this.cb_Platform);
             this.groupBox1.Controls.Add(this.lb_Genre);
-            this.groupBox1.Controls.Add(this.cb_Price);
             this.groupBox1.Controls.Add(this.lb_Platform);
             this.groupBox1.Controls.Add(this.dateTimePicker_ArrivelDate);
             this.groupBox1.Controls.Add(this.dateTimePicker_ReleaseDate);
@@ -82,6 +81,7 @@ namespace afp1_erp_main
             this.groupBox1.Controls.Add(this.lb_Serial);
             this.groupBox1.Controls.Add(this.lb_Name);
             this.groupBox1.Controls.Add(this.tb_SteamKey);
+            this.groupBox1.Controls.Add(this.tb_Price);
             this.groupBox1.Controls.Add(this.tb_SerialNum);
             this.groupBox1.Controls.Add(this.tb_Name);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
@@ -159,6 +159,7 @@ namespace afp1_erp_main
             this.cb_Platform.Items.AddRange(new object[] {
             "PC",
             "PS4",
+            "PS5",
             "XboX Series X/S",
             "Stadia",
             "Nintendo Switch"});
@@ -176,14 +177,6 @@ namespace afp1_erp_main
             this.lb_Genre.Size = new System.Drawing.Size(38, 15);
             this.lb_Genre.TabIndex = 1;
             this.lb_Genre.Text = "Genre";
-            // 
-            // cb_Price
-            // 
-            this.cb_Price.FormattingEnabled = true;
-            this.cb_Price.Location = new System.Drawing.Point(7, 266);
-            this.cb_Price.Name = "cb_Price";
-            this.cb_Price.Size = new System.Drawing.Size(417, 23);
-            this.cb_Price.TabIndex = 3;
             // 
             // lb_Platform
             // 
@@ -356,6 +349,13 @@ namespace afp1_erp_main
             this.label1.TabIndex = 4;
             this.label1.Text = "Sort by";
             // 
+            // tb_Price
+            // 
+            this.tb_Price.Location = new System.Drawing.Point(5, 266);
+            this.tb_Price.Name = "tb_Price";
+            this.tb_Price.Size = new System.Drawing.Size(418, 23);
+            this.tb_Price.TabIndex = 1;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -385,7 +385,6 @@ namespace afp1_erp_main
         private System.Windows.Forms.ComboBox cb_Genre;
         private System.Windows.Forms.ComboBox cb_Platform;
         private System.Windows.Forms.Label lb_Genre;
-        private System.Windows.Forms.ComboBox cb_Price;
         private System.Windows.Forms.Label lb_Platform;
         private System.Windows.Forms.DateTimePicker dateTimePicker_ArrivelDate;
         private System.Windows.Forms.DateTimePicker dateTimePicker_ReleaseDate;
@@ -408,5 +407,6 @@ namespace afp1_erp_main
         private System.Windows.Forms.Button btn_Sort;
         private System.Windows.Forms.ComboBox cb_Sort;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tb_Price;
     }
 }

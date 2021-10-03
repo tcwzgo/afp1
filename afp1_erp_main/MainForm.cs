@@ -47,9 +47,11 @@ namespace afp1_erp_main
                     gameShop.Remove(cell.RowIndex);
                 }
                 dataGridView.DataSource = gameShop.VidGames;
+                MessageBox.Show("A választott terméke(ke)t töröltük a listából!");
             }
             else if (deleteRecordYesNo == DialogResult.No)
             {
+                MessageBox.Show("Nem került törlésre termék!");
                 return; // csak visszatérünk az eredeti form-ba
             }
         }

@@ -1,4 +1,8 @@
 ﻿
+using System;
+using System.Threading;
+using System.Windows.Forms;
+
 namespace afp1_erp_main
 {
     partial class LoginForm
@@ -47,7 +51,6 @@ namespace afp1_erp_main
             this.tb_uName.Name = "tb_uName";
             this.tb_uName.Size = new System.Drawing.Size(240, 23);
             this.tb_uName.TabIndex = 0;
-            
             // 
             // tb_passwd
             // 
@@ -56,9 +59,9 @@ namespace afp1_erp_main
             this.tb_passwd.Name = "tb_passwd";
             this.tb_passwd.PasswordChar = '*';
             this.tb_passwd.Size = new System.Drawing.Size(240, 23);
-            this.tb_passwd.TabIndex = 0;
+            this.tb_passwd.TabIndex = 1;
             this.tb_passwd.UseSystemPasswordChar = true;
-            
+            this.tb_passwd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_passwd_KeyPress);
             // 
             // btn_login
             // 
@@ -66,7 +69,7 @@ namespace afp1_erp_main
             this.btn_login.Margin = new System.Windows.Forms.Padding(2);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(78, 27);
-            this.btn_login.TabIndex = 1;
+            this.btn_login.TabIndex = 2;
             this.btn_login.Text = "Login";
             this.btn_login.UseVisualStyleBackColor = true;
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
@@ -127,7 +130,6 @@ namespace afp1_erp_main
             this.PerformLayout();
 
         }
-
         #endregion
 
         private System.Windows.Forms.TextBox tb_uName;

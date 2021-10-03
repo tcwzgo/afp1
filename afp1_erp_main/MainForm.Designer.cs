@@ -97,6 +97,7 @@ namespace afp1_erp_main
             this.btn_UpdateItem.Name = "btn_UpdateItem";
             this.btn_UpdateItem.Size = new System.Drawing.Size(115, 68);
             this.btn_UpdateItem.TabIndex = 5;
+            this.btn_UpdateItem.TabStop = false;
             this.btn_UpdateItem.Text = "Update Item";
             this.btn_UpdateItem.UseVisualStyleBackColor = true;
             this.btn_UpdateItem.Click += new System.EventHandler(this.btn_UpdateItem_Click);
@@ -107,6 +108,7 @@ namespace afp1_erp_main
             this.btn_RemoveItem.Name = "btn_RemoveItem";
             this.btn_RemoveItem.Size = new System.Drawing.Size(115, 68);
             this.btn_RemoveItem.TabIndex = 5;
+            this.btn_RemoveItem.TabStop = false;
             this.btn_RemoveItem.Text = "Remove Item";
             this.btn_RemoveItem.UseVisualStyleBackColor = true;
             this.btn_RemoveItem.Click += new System.EventHandler(this.btn_RemoveItem_Click);
@@ -117,6 +119,7 @@ namespace afp1_erp_main
             this.btn_AddItem.Name = "btn_AddItem";
             this.btn_AddItem.Size = new System.Drawing.Size(115, 68);
             this.btn_AddItem.TabIndex = 5;
+            this.btn_AddItem.TabStop = false;
             this.btn_AddItem.Text = "Add Item";
             this.btn_AddItem.UseVisualStyleBackColor = true;
             this.btn_AddItem.Click += new System.EventHandler(this.btn_AddItem_Click);
@@ -127,6 +130,7 @@ namespace afp1_erp_main
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(415, 44);
             this.btn_Search.TabIndex = 4;
+            this.btn_Search.TabStop = false;
             this.btn_Search.Text = "Search";
             this.btn_Search.UseVisualStyleBackColor = true;
             this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
@@ -147,7 +151,7 @@ namespace afp1_erp_main
             this.cb_Genre.Location = new System.Drawing.Point(8, 406);
             this.cb_Genre.Name = "cb_Genre";
             this.cb_Genre.Size = new System.Drawing.Size(417, 23);
-            this.cb_Genre.TabIndex = 3;
+            this.cb_Genre.TabIndex = 5;
             // 
             // cb_Platform
             // 
@@ -161,7 +165,7 @@ namespace afp1_erp_main
             this.cb_Platform.Location = new System.Drawing.Point(8, 336);
             this.cb_Platform.Name = "cb_Platform";
             this.cb_Platform.Size = new System.Drawing.Size(417, 23);
-            this.cb_Platform.TabIndex = 3;
+            this.cb_Platform.TabIndex = 4;
             // 
             // lb_Genre
             // 
@@ -196,7 +200,7 @@ namespace afp1_erp_main
             this.dateTimePicker_ArrivelDate.Location = new System.Drawing.Point(6, 476);
             this.dateTimePicker_ArrivelDate.Name = "dateTimePicker_ArrivelDate";
             this.dateTimePicker_ArrivelDate.Size = new System.Drawing.Size(417, 23);
-            this.dateTimePicker_ArrivelDate.TabIndex = 2;
+            this.dateTimePicker_ArrivelDate.TabIndex = 6;
             // 
             // dateTimePicker_ReleaseDate
             // 
@@ -270,14 +274,14 @@ namespace afp1_erp_main
             this.tb_SteamKey.Location = new System.Drawing.Point(7, 546);
             this.tb_SteamKey.Name = "tb_SteamKey";
             this.tb_SteamKey.Size = new System.Drawing.Size(418, 23);
-            this.tb_SteamKey.TabIndex = 0;
+            this.tb_SteamKey.TabIndex = 7;
             // 
             // tb_SerialNum
             // 
             this.tb_SerialNum.Location = new System.Drawing.Point(6, 126);
             this.tb_SerialNum.Name = "tb_SerialNum";
             this.tb_SerialNum.Size = new System.Drawing.Size(418, 23);
-            this.tb_SerialNum.TabIndex = 0;
+            this.tb_SerialNum.TabIndex = 1;
             // 
             // tb_Name
             // 
@@ -321,6 +325,7 @@ namespace afp1_erp_main
             this.btn_Sort.Name = "btn_Sort";
             this.btn_Sort.Size = new System.Drawing.Size(78, 26);
             this.btn_Sort.TabIndex = 2;
+            this.btn_Sort.TabStop = false;
             this.btn_Sort.Text = "Sort";
             this.btn_Sort.UseVisualStyleBackColor = true;
             this.btn_Sort.Click += new System.EventHandler(this.btn_Sort_Click);
@@ -339,6 +344,7 @@ namespace afp1_erp_main
             this.cb_Sort.Name = "cb_Sort";
             this.cb_Sort.Size = new System.Drawing.Size(270, 23);
             this.cb_Sort.TabIndex = 3;
+            this.cb_Sort.TabStop = false;
             // 
             // label1
             // 

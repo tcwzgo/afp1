@@ -20,11 +20,26 @@ namespace afp1_erp_main
         }
         private void btn_login_Click(object sender, EventArgs e)
         {
+            Validation();
+        }
+        private void Run()
+        {
+            Thread.Sleep(500);
+            Application.Run(new MainForm());
+        }
+        private void tb_passwd_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Return) Validation();
+        }
+        //felhasználónév-jelszó kombináció ellenőrzése
+        private void Validation()
+        {
             if (tb_uName.Text == "admin" && tb_passwd.Text == "admin")
             {
                 Thread t = new Thread(Run);
                 t.Start();
                 Close();
+
             }
             else
             {
@@ -33,11 +48,6 @@ namespace afp1_erp_main
                 tb_uName.Clear();
                 tb_passwd.Clear();
             }
-        }
-        private void Run()
-        {
-            Thread.Sleep(500);
-            Application.Run(new MainForm());
         }
     }
 }

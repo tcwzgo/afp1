@@ -8,23 +8,23 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Bence\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Levente\\.nuget\\packages\\": {},
+    "D:\\C# Installing folder\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\gitrepo\\afp1\\afp1_erp_main\\afp1_erp_main.csproj",
+      "projectUniqueName": "D:\\GET\\AFP1\\afp1\\afp1_erp_main\\afp1_erp_main.csproj",
       "projectName": "afp1_erp_main",
-      "projectPath": "D:\\gitrepo\\afp1\\afp1_erp_main\\afp1_erp_main.csproj",
-      "packagesPath": "C:\\Users\\Bence\\.nuget\\packages\\",
-      "outputPath": "D:\\gitrepo\\afp1\\afp1_erp_main\\obj\\",
+      "projectPath": "D:\\GET\\AFP1\\afp1\\afp1_erp_main\\afp1_erp_main.csproj",
+      "packagesPath": "C:\\Users\\Levente\\.nuget\\packages\\",
+      "outputPath": "D:\\GET\\AFP1\\afp1\\afp1_erp_main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\C# Installing folder\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Bence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Levente\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -68,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

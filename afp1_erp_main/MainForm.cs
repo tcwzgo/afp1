@@ -15,6 +15,7 @@ namespace afp1_erp_main
     public partial class MainForm : Form
     {
         GameShop gameShop;
+        
 
         public MainForm()
         {
@@ -57,8 +58,67 @@ namespace afp1_erp_main
         }
         private void btn_Search_Click(object sender, EventArgs e)
         {
-
-            // ha mindegyik null akkor az összeset ki listázza, ha csak egy van beírva akkor arra szűrünk
+            foreach (DataGridViewRow r in dataGridView.Rows)
+            {
+                if (tb_Name.Text != "" && (r.Cells[0].Value).ToString().Contains(tb_Name.Text))
+                {
+                    dataGridView.Rows[r.Index].Visible = true;
+                    dataGridView.Rows[r.Index].Selected = true;
+                    
+                }
+                if (tb_SerialNum.Text != "" && (r.Cells[7].Value).ToString().Contains(tb_SerialNum.Text))
+                {
+                    dataGridView.Rows[r.Index].Visible = true;
+                    dataGridView.Rows[r.Index].Selected = true;
+                    continue;
+                }
+                if ((r.Cells[5].Value).ToString().Equals(dateTimePicker_ReleaseDate.Text))
+                {
+                    dataGridView.Rows[r.Index].Visible = true;
+                    dataGridView.Rows[r.Index].Selected = true;
+                   
+                }
+                if (tb_Price.Text != "" && (r.Cells[2].Value).ToString().Contains(tb_Price.Text))
+                {
+                    dataGridView.Rows[r.Index].Visible = true;
+                    dataGridView.Rows[r.Index].Selected = true;
+                    
+                }
+                if ((r.Cells[1].Value).ToString().Equals(cb_Platform.Text))
+                {
+                    dataGridView.Rows[r.Index].Visible = true;
+                    dataGridView.Rows[r.Index].Selected = true;
+                    
+                }
+                if ((r.Cells[4].Value).ToString().Equals(cb_Genre.Text))
+                {
+                    dataGridView.Rows[r.Index].Visible = true;
+                    dataGridView.Rows[r.Index].Selected = true;
+                   
+                }
+                if ((r.Cells[3].Value).ToString().Equals(cb_Budget.Text))
+                {
+                    dataGridView.Rows[r.Index].Visible = true;
+                    dataGridView.Rows[r.Index].Selected = true;
+                    
+                }
+                if ((r.Cells[6].Value).ToString().Equals(dateTimePicker_ArrivelDate.Text))
+                {
+                    dataGridView.Rows[r.Index].Visible = true;
+                    dataGridView.Rows[r.Index].Selected = true;
+                    
+                }
+                if (tb_SteamKey.Text != "" && (r.Cells[8].Value).ToString().Contains(tb_SteamKey.Text))
+                {
+                    dataGridView.Rows[r.Index].Visible = true;
+                    dataGridView.Rows[r.Index].Selected = true;
+                }
+                else
+                {
+                    dataGridView.CurrentCell = null;
+                    dataGridView.Rows[r.Index].Visible = false;
+                }
+            }
         }
 
         private void btn_UpdateItem_Click(object sender, EventArgs e)
@@ -89,10 +149,7 @@ namespace afp1_erp_main
             sort(asc);
             dataGridView.DataSource = gameShop.VidGames;
         }
-        private void btn_Filter_Click(object sender, EventArgs e)
-        {
-
-        }
+        
         private void cbF_Price_SelectedIndexChanged(object sender, EventArgs e)
         {
             num2ndPrice.Visible = cbF_Price.SelectedIndex == 0 ? true : false;
@@ -133,6 +190,19 @@ namespace afp1_erp_main
                     steamKey: inSteamKey
                 );
             return p;
+        }
+
+        private void Btn_Filter_Click_1(object sender, EventArgs e)
+        {
+            
+            if (true)
+            {
+
+            }
+            else
+            {
+
+            }
         }
     }
 }

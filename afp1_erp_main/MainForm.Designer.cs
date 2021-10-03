@@ -68,6 +68,7 @@ namespace afp1_erp_main
             this.num1stPrice = new System.Windows.Forms.NumericUpDown();
             this.num2ndPrice = new System.Windows.Forms.NumericUpDown();
             this.cbF_Price = new System.Windows.Forms.ComboBox();
+            this.Btn_Filter = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.gb_Output.SuspendLayout();
             this.flowLayoutPanel_List.SuspendLayout();
@@ -147,7 +148,7 @@ namespace afp1_erp_main
             this.btn_Search.Size = new System.Drawing.Size(415, 44);
             this.btn_Search.TabIndex = 9;
             this.btn_Search.TabStop = false;
-            this.btn_Search.Text = "Search";
+            this.btn_Search.Text = "Search By Name && Serial Number";
             this.btn_Search.UseVisualStyleBackColor = true;
             this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
@@ -155,6 +156,7 @@ namespace afp1_erp_main
             // 
             this.cb_Budget.FormattingEnabled = true;
             this.cb_Budget.Items.AddRange(new object[] {
+            "",
             "AAA",
             "indie"});
             this.cb_Budget.Location = new System.Drawing.Point(308, 410);
@@ -166,6 +168,7 @@ namespace afp1_erp_main
             // 
             this.cb_Genre.FormattingEnabled = true;
             this.cb_Genre.Items.AddRange(new object[] {
+            "",
             "action_adventure",
             "action_role_play",
             "battle_royale",
@@ -185,7 +188,8 @@ namespace afp1_erp_main
             // 
             this.cb_Platform.FormattingEnabled = true;
             this.cb_Platform.Items.AddRange(new object[] {
-            "PC",
+            "",
+            "Windows",
             "PS4",
             "PS5",
             "XboX Series X/S",
@@ -239,6 +243,7 @@ namespace afp1_erp_main
             this.dateTimePicker_ReleaseDate.Name = "dateTimePicker_ReleaseDate";
             this.dateTimePicker_ReleaseDate.Size = new System.Drawing.Size(417, 23);
             this.dateTimePicker_ReleaseDate.TabIndex = 2;
+            this.dateTimePicker_ReleaseDate.Value = new System.DateTime(2021, 10, 3, 19, 18, 56, 0);
             // 
             // lb_Price
             // 
@@ -372,6 +377,7 @@ namespace afp1_erp_main
             // 
             this.cb_Sort.FormattingEnabled = true;
             this.cb_Sort.Items.AddRange(new object[] {
+            "",
             "Price ascending",
             "Price descending",
             "Name ascending",
@@ -408,7 +414,7 @@ namespace afp1_erp_main
             // 
             this.lbF_Price.AutoSize = true;
             this.lbF_Price.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.lbF_Price.Location = new System.Drawing.Point(913, 94);
+            this.lbF_Price.Location = new System.Drawing.Point(904, 100);
             this.lbF_Price.Name = "lbF_Price";
             this.lbF_Price.Size = new System.Drawing.Size(32, 15);
             this.lbF_Price.TabIndex = 1;
@@ -418,7 +424,7 @@ namespace afp1_erp_main
             // 
             this.lbF_Platform.AutoSize = true;
             this.lbF_Platform.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.lbF_Platform.Location = new System.Drawing.Point(893, 39);
+            this.lbF_Platform.Location = new System.Drawing.Point(893, 42);
             this.lbF_Platform.Name = "lbF_Platform";
             this.lbF_Platform.Size = new System.Drawing.Size(52, 15);
             this.lbF_Platform.TabIndex = 1;
@@ -428,7 +434,7 @@ namespace afp1_erp_main
             // 
             this.lbF_Arrival.AutoSize = true;
             this.lbF_Arrival.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.lbF_Arrival.Location = new System.Drawing.Point(876, 68);
+            this.lbF_Arrival.Location = new System.Drawing.Point(876, 71);
             this.lbF_Arrival.Name = "lbF_Arrival";
             this.lbF_Arrival.Size = new System.Drawing.Size(69, 15);
             this.lbF_Arrival.TabIndex = 1;
@@ -438,20 +444,21 @@ namespace afp1_erp_main
             // 
             this.cbF_Platform.FormattingEnabled = true;
             this.cbF_Platform.Items.AddRange(new object[] {
+            " ",
             "PC",
             "PS4",
             "PS5",
             "XboX Series X/S",
             "Stadia",
             "Nintendo Switch"});
-            this.cbF_Platform.Location = new System.Drawing.Point(951, 36);
+            this.cbF_Platform.Location = new System.Drawing.Point(951, 34);
             this.cbF_Platform.Name = "cbF_Platform";
             this.cbF_Platform.Size = new System.Drawing.Size(110, 23);
             this.cbF_Platform.TabIndex = 15;
             // 
             // datePickerF
             // 
-            this.datePickerF.Location = new System.Drawing.Point(1067, 65);
+            this.datePickerF.Location = new System.Drawing.Point(1076, 65);
             this.datePickerF.MaxDate = new System.DateTime(2500, 12, 31, 0, 0, 0, 0);
             this.datePickerF.MinDate = new System.DateTime(1980, 1, 1, 0, 0, 0, 0);
             this.datePickerF.Name = "datePickerF";
@@ -462,6 +469,7 @@ namespace afp1_erp_main
             // 
             this.cbF_Arrival.FormattingEnabled = true;
             this.cbF_Arrival.Items.AddRange(new object[] {
+            "",
             "before",
             "after"});
             this.cbF_Arrival.Location = new System.Drawing.Point(951, 65);
@@ -476,7 +484,7 @@ namespace afp1_erp_main
             0,
             0,
             0});
-            this.num1stPrice.Location = new System.Drawing.Point(1067, 94);
+            this.num1stPrice.Location = new System.Drawing.Point(1076, 96);
             this.num1stPrice.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -498,7 +506,7 @@ namespace afp1_erp_main
             0,
             0,
             0});
-            this.num2ndPrice.Location = new System.Drawing.Point(1179, 94);
+            this.num2ndPrice.Location = new System.Drawing.Point(1188, 96);
             this.num2ndPrice.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -518,20 +526,32 @@ namespace afp1_erp_main
             // 
             this.cbF_Price.FormattingEnabled = true;
             this.cbF_Price.Items.AddRange(new object[] {
+            "",
             "between",
             "over",
             "under"});
-            this.cbF_Price.Location = new System.Drawing.Point(951, 93);
+            this.cbF_Price.Location = new System.Drawing.Point(951, 96);
             this.cbF_Price.Name = "cbF_Price";
             this.cbF_Price.Size = new System.Drawing.Size(110, 23);
             this.cbF_Price.TabIndex = 18;
             this.cbF_Price.SelectedIndexChanged += new System.EventHandler(this.cbF_Price_SelectedIndexChanged);
+            // 
+            // Btn_Filter
+            // 
+            this.Btn_Filter.Location = new System.Drawing.Point(1313, 96);
+            this.Btn_Filter.Name = "Btn_Filter";
+            this.Btn_Filter.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Filter.TabIndex = 22;
+            this.Btn_Filter.Text = "Filter";
+            this.Btn_Filter.UseVisualStyleBackColor = true;
+            this.Btn_Filter.Click += new System.EventHandler(this.Btn_Filter_Click_1);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1549, 733);
+            this.Controls.Add(this.Btn_Filter);
             this.Controls.Add(this.num2ndPrice);
             this.Controls.Add(this.num1stPrice);
             this.Controls.Add(this.lbF_Filter);
@@ -603,5 +623,6 @@ namespace afp1_erp_main
         private System.Windows.Forms.ComboBox cbF_Price;
         private System.Windows.Forms.Label lb_Budget;
         private System.Windows.Forms.ComboBox cb_Budget;
+        private System.Windows.Forms.Button Btn_Filter;
     }
 }

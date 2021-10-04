@@ -120,11 +120,6 @@ namespace afp1_erp_main
                 }
             }
         }
-
-        private void btn_UpdateItem_Click(object sender, EventArgs e)
-        {
-
-        }
         private void btn_AddItem_Click(object sender, EventArgs e)
         {
 
@@ -191,18 +186,34 @@ namespace afp1_erp_main
                 );
             return p;
         }
-
-        private void Btn_Filter_Click_1(object sender, EventArgs e)
+        private void Btn_Filter_Click(object sender, EventArgs e)
         {
-            
-            if (true)
+            List<Product> tempList;
+            switch (listF.SelectedIndex)
             {
-
+                case 0: tempList = gameShop.VidGames.Where(v => v.Platform.ToString() == cbF_Platform.SelectedItem.ToString()).ToList(); break;
+                case 1:
+                    tempList = gameShop.VidGames.Where(
+                        cbF_Arrival.SelectedIndex == 0 ?
+                        v => v.ArrivalDate < datePickerF.Value :
+                        v => v.ArrivalDate > datePickerF.Value)
+                        .ToList(); break;
+                case 2:
+                     tempList = 
+                        cbF_Price.SelectedIndex == 0 ? //between
+                            gameShop.VidGames.Where(v => v.Price >= num1stPrice.Value && v.Price <= num2ndPrice.Value).ToList() :
+                        cbF_Price.SelectedIndex == 1 ? //over
+                            gameShop.VidGames.Where(v => v.Price > num1stPrice.Value).ToList() :
+                            //under
+                            gameShop.VidGames.Where(v => v.Price < num1stPrice.Value).ToList(); break;
+                default: tempList = gameShop.VidGames; break;
             }
-            else
-            {
+            dataGridView.DataSource = tempList;
+        }
 
-            }
+        private void btn_Reset_Click(object sender, EventArgs e)
+        {
+            dataGridView.DataSource = gameShop.VidGames;
         }
     }
 }

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = afp1_erp_main
-build_property.ProjectDir = E:\School\Codes\Afp1_repo\afp1\afp1_erp_main\
+build_property.ProjectDir = D:\gitrepo\afp1_erp_main\

@@ -47,20 +47,18 @@ Az alkalmazás felhasználói oldalát asztali alkalmazásnak tervezzük.
 
 ### Funkcionális terv
 
+Rendszerszereplők: Rendszergazda jogosultsággal rendelkezők
 
+Rendszerhasználati esetek és lefutásaik:
 
-
-
-
-
-
-
-
-
-
-
-
-
+Login menü ahol az admin belép (GUI felület) csak egyféle user-pwd kombinációt fogadunk el.
+Ezek megadása textbox-okban történjen
+A jelszó legyen elrejtve
+"Login" gombra futtasson egy új MainForm-ot a kód
+A felületünk a MainForm-ban valósul meg:
+	- mezők, amelyek alapján szűrünk, hozzáadunk, törlünk, frissítünk
+	- gombok amelyek hatására események futnak le (Add, Remove, Sort, Update, Search)
+	- TextBox-ok és ComboBox-ok használata a fent említett szűrési paraméterekhez
 
 
 ### Fizikai környezet

@@ -30,7 +30,7 @@ Nem funkcionális követelmények: -Felhasználóbarát felület, átlátható -
 
 Törvényi előírások, szabványok: - GDPR-nak való megfelelés - Általános információk - Szellemi tulajdon - Használat - Felelősségi szabályok -
 Technikai követelmények - Garancia és kártérítés - 2013. évi V. törvény - Európai Parlament és Tanács 2016. április 27-i (EU) 2016/679 Rendelete
-- 2011. évi CXII. törvény - a szerzői jogról szóló 1999. évi LXXVI. törvény - 2001. évi CVIII. törvény
+-2011. évi CXII. törvény - a szerzői jogról szóló 1999. évi LXXVI. törvény - 2001. évi CVIII. törvény
 
 ### Architekturális terv
 

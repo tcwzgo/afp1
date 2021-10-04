@@ -30,6 +30,7 @@ namespace afp1_erp_main
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_Clear = new System.Windows.Forms.Button();
             this.btn_RemoveItem = new System.Windows.Forms.Button();
             this.btn_AddItem = new System.Windows.Forms.Button();
             this.btn_Search = new System.Windows.Forms.Button();
@@ -77,6 +78,7 @@ namespace afp1_erp_main
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn_Clear);
             this.groupBox1.Controls.Add(this.btn_RemoveItem);
             this.groupBox1.Controls.Add(this.btn_AddItem);
             this.groupBox1.Controls.Add(this.btn_Search);
@@ -105,11 +107,22 @@ namespace afp1_erp_main
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Input";
             // 
+            // btn_Clear
+            // 
+            this.btn_Clear.AutoEllipsis = true;
+            this.btn_Clear.Location = new System.Drawing.Point(9, 575);
+            this.btn_Clear.Name = "btn_Clear";
+            this.btn_Clear.Size = new System.Drawing.Size(414, 35);
+            this.btn_Clear.TabIndex = 12;
+            this.btn_Clear.Text = "Clear";
+            this.btn_Clear.UseVisualStyleBackColor = true;
+            this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
+            // 
             // btn_RemoveItem
             // 
-            this.btn_RemoveItem.Location = new System.Drawing.Point(226, 641);
+            this.btn_RemoveItem.Location = new System.Drawing.Point(226, 666);
             this.btn_RemoveItem.Name = "btn_RemoveItem";
-            this.btn_RemoveItem.Size = new System.Drawing.Size(199, 68);
+            this.btn_RemoveItem.Size = new System.Drawing.Size(199, 43);
             this.btn_RemoveItem.TabIndex = 11;
             this.btn_RemoveItem.TabStop = false;
             this.btn_RemoveItem.Text = "Remove Item";
@@ -118,9 +131,9 @@ namespace afp1_erp_main
             // 
             // btn_AddItem
             // 
-            this.btn_AddItem.Location = new System.Drawing.Point(8, 641);
+            this.btn_AddItem.Location = new System.Drawing.Point(8, 666);
             this.btn_AddItem.Name = "btn_AddItem";
-            this.btn_AddItem.Size = new System.Drawing.Size(199, 68);
+            this.btn_AddItem.Size = new System.Drawing.Size(199, 43);
             this.btn_AddItem.TabIndex = 10;
             this.btn_AddItem.TabStop = false;
             this.btn_AddItem.Text = "Add Item";
@@ -129,7 +142,7 @@ namespace afp1_erp_main
             // 
             // btn_Search
             // 
-            this.btn_Search.Location = new System.Drawing.Point(8, 585);
+            this.btn_Search.Location = new System.Drawing.Point(9, 616);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(415, 44);
             this.btn_Search.TabIndex = 9;
@@ -604,5 +617,6 @@ namespace afp1_erp_main
         private System.Windows.Forms.Button Btn_Filter;
         private System.Windows.Forms.ListBox listF;
         private System.Windows.Forms.Button btn_Reset;
+        private System.Windows.Forms.Button btn_Clear;
     }
 }

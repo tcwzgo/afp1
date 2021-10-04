@@ -122,7 +122,6 @@ namespace afp1_erp_main
         }
         private void btn_AddItem_Click(object sender, EventArgs e)
         {
-
             Product newGame = CreateInstanceFromGUIInput();
             gameShop.Add(newGame); //fájlba írást is elvégzi!
             dataGridView.DataSource = gameShop.VidGames;
@@ -214,6 +213,18 @@ namespace afp1_erp_main
         private void btn_Reset_Click(object sender, EventArgs e)
         {
             dataGridView.DataSource = gameShop.VidGames;
+        }
+
+        private void btn_Clear_Click(object sender, EventArgs e)
+        {
+            tb_Name.Text = "";
+            tb_Price.Text = "";
+            tb_SerialNum.Text = "";
+            tb_SteamKey.Text = "";
+            dateTimePicker_ArrivelDate.ResetText();
+            dateTimePicker_ReleaseDate.ResetText();
+            cb_Budget.ResetText();
+            cb_Genre.ResetText();
         }
     }
 }

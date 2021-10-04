@@ -80,12 +80,15 @@ vannak és lesznek eltárolva.
 
 ### Teszt terv
 
+A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása.
 
+Tesztelési eljárások
 
+Unit teszt: Login és MainForm megfelelő kapcsolata, csak a megfelelő kombinációval engedje be a rendszergazdát. MainForm GUI működésének verifikálása, legördülő listák tartalmának ellenőrzése.
 
+Beta teszt: Konkrét, élse rendszerteszt. Funkciók tesztelése (Termék hozzáadása, törlése, frissítése, szűrések stb...). Események helyes lejátszódásának megvizsgálása.
 
-
-
+Ha szoftverünk ezen felsorolt elvek szerint működik, meghívjuk az ügyfelet további konzultációra.
 
 ### Telepítési terv
 

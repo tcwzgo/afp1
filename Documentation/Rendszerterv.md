@@ -64,12 +64,12 @@ módosított a raktár listáján az automatikusan mentésre kerül számára.
 
 ### Fizikai környezet
 
-
-
-
-
-
-
+- Az alkalmazás Windows operációs rendszerre készült
+- Nincsenek megvásárolt komponenseink
+- Nincsenek alkalmazáson belüli mikrotranzakciók
+- Használt alkalmazások és Fejlesztői környezetek:
+- Microsoft Excel
+- Visual Studio 
 
 ### Absztrakt domain modell
 

@@ -8,24 +8,19 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Bence\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hegyi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\gitrepo\\afp1_erp_main\\afp1_erp_main.csproj",
+      "projectUniqueName": "E:\\School\\Codes\\Afp1_repo\\afp1\\afp1_erp_main\\afp1_erp_main.csproj",
       "projectName": "afp1_erp_main",
-      "projectPath": "D:\\gitrepo\\afp1_erp_main\\afp1_erp_main.csproj",
-      "packagesPath": "C:\\Users\\Bence\\.nuget\\packages\\",
-      "outputPath": "D:\\gitrepo\\afp1_erp_main\\obj\\",
+      "projectPath": "E:\\School\\Codes\\Afp1_repo\\afp1\\afp1_erp_main\\afp1_erp_main.csproj",
+      "packagesPath": "C:\\Users\\hegyi\\.nuget\\packages\\",
+      "outputPath": "E:\\School\\Codes\\Afp1_repo\\afp1\\afp1_erp_main\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Bence\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\hegyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

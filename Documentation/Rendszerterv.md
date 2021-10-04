@@ -73,10 +73,11 @@ módosított a raktár listáján az automatikusan mentésre kerül számára.
 
 ### Absztrakt domain modell
 
-
-
-
-
+A rendszert a felhasználó egy Windowsos alkalmazáson keresztül érheti majd el, aminek az elkészítését C# nyelven tervezzük. A felület
+lehetővé teszi majd a felhasználó számára a név és a jelszó megadásával a bejelentkezést. A felhasználó választhat a beépített funkciók közül.
+Amennyiben a felhasználó keresni szeretne ezt név alapján és serial number alapján teheti meg, valamint ha hozzászeretne adni a raktári listához 
+abban az esetben ki kell tölteni az input mezők összes tartalmát. Szűrési funkciók beérkezési idő alapján, ár alapján. Az adatok Excel táblázatban
+vannak és lesznek eltárolva.
 
 ### Teszt terv
 

@@ -223,6 +223,7 @@ namespace afp1_erp_main
             tb_SteamKey.Text = "";
             dateTimePicker_ArrivelDate.ResetText();
             dateTimePicker_ReleaseDate.ResetText();
+            cb_Platform.ResetText();
             cb_Budget.ResetText();
             cb_Genre.ResetText();
         }

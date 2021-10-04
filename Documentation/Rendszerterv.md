@@ -23,26 +23,27 @@ módosított a raktár listáján az automatikusan mentésre kerül számára.
 
 ### Követelmények
 
+Funkcionális követelmények: - Adatok eltárolása - Felhasználó által hozzáadott adatok tárolása - Gombok működése 
+- Input mezők megfelelő működése 
 
+Nem funkcionális követelmények: -Felhasználóbarát felület, átlátható - Szűrés, keresés gyors és letisztul működése - Optimálisság
 
-
-
-
+Törvényi előírások, szabványok: - GDPR-nak való megfelelés - Általános információk - Szellemi tulajdon - Használat - Felelősségi szabályok -
+Technikai követelmények - Garancia és kártérítés - 2013. évi V. törvény - Európai Parlament és Tanács 2016. április 27-i (EU) 2016/679 Rendelete
+- 2011. évi CXII. törvény - a szerzői jogról szóló 1999. évi LXXVI. törvény - 2001. évi CVIII. törvény
 
 ### Architekturális terv
 
-
+A rendszerhez szükség van egy fájl-ra, ebben az esetben Microsoft Excel-t használunk.
+Bejelentkezés után elérhetőek lesznek az adott beépített funkciók.
 
 ### Implementációs terv
 
 
 #### Windows Desktop Application
 
-
-
-
-
-
+A terv a Visual Studio C# használatát/ismeretét írja elő, mivel könnyen használható.
+Az alkalmazás felhasználói oldalát asztali alkalmazásnak tervezzük.
 
 ### Funkcionális terv
 

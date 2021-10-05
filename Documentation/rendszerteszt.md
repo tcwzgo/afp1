@@ -3,7 +3,7 @@
 ### Program lefutásának feltételei
 
 
-###Alap adatok, választott adatszerkezet
+### Alap adatok, választott adatszerkezet
 - A megvalósításhoz mindenképpen a dinamikus adatszerkezetek között keresgéltünk és  végül a List-re jutottunk
 - Egy terméket 9 formális paraméterrel tárolunk "Product" néven
 - A szoftvernek képesnek kell lennie termékek tárolására, felvételére, törlésére, szűrésére a lent taglaltak szerint

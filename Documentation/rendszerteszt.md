@@ -1,8 +1,8 @@
-###Rendszerteszt
+###Rendszerteszt###
 
-###Program lefutásának feltételei
+###Program lefutásának feltételei###
 
-##Login form
+##Login form##
 - A szoftvernek induláskor a "LoginForm" ablakot kell létrehoznia és megjelenítenie.
 	- az ablakban 3 Label objektum található fő feladatuk a címkézés -> ezek nem változnak
 	- található még 2 TextBox, amely a felhasználói inputokat hivatalos kezelni
@@ -11,7 +11,7 @@
 	- amely esetben a belépni kívánó fél helytelen kombinációval szeretne belépni, egy MessageBox objektum jelzi ezt számára
 	- helyes kombináció esetén a "Login" Button objektumra kattintva a szoftver inicializálja és megjeleníti a "MainForm" ablakot
 	
-##Main form
+##Main form##
 - Az előzőekben taglaltak szerint kell lefutnia
 - Ez a szoftver fő része amely a következő modulokat tartalmazza:
 	- Két fő részt definiáltunk amelyek az "Input" és "Output"
